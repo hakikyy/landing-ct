@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Contact Us | PT Cutting Edge Indonesia</title>
+    <script src="src/js/tailwind-config.js"></script>
+    <link href="src/style/global.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Work+Sans:wght@300;400;500;600&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+
+    <style>
+        .glass-header {
+            backdrop-filter: blur(12px);
+            background-color: rgba(249, 249, 249, 0.7);
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+
+        .card-lift:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.1);
+        }
+
+
+
+        .contact-card-icon .material-symbols-outlined {
+            color: inherit;
+        }
+
+        .contact-input-spacing label {
+            display: inline-block;
+            margin-bottom: 0.25rem;
+        }
+
+        .bg-hero {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://lh3.googleusercontent.com/aida-public/AB6AXuAZoMOnn9P6zQy3f1HKPg0tAQehS_SUbkIVsf5hgpmytO8OT1c3gDVDc2zx415-_tFkzVnsNHMdgVc1NqIxOF7cLvS1shIXim7OZ142tivO_-EaAdfzZEdYbXExFTsgmj8shXFQXk3G6LMBVbD0fWWKnFknDcuB9Th5XR3kEUY2SkWtsKxvgnd0110n-pf0CfbeJCjafrXQmPujb4rYifK5mXBqxh_oskxk6WI5e7gufSaVxiN4xkOmg1YI4B1jiojCvf1BSiBhUeIg');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+
+<body class="bg-background text-on-surface font-body-md overflow-x-hidden">
+    <div id="site-header"></div>
+    <!-- Mobile Menu Overlay (Hidden by default) -->
+    <div class="fixed inset-0 z-[60] bg-surface flex flex-col items-center justify-center gap-6 hidden"
+        id="mobile-menu">
+        <button class="absolute top-6 right-6 text-deep-maroon" onclick="toggleMobileMenu()">
+            <span class="material-symbols-outlined">close</span>
+        </button>
+        <a class="font-headline-md text-headline-md text-on-surface" href="#">Home</a>
+        <a class="font-headline-md text-headline-md text-on-surface" href="#">Services</a>
+        <a class="font-headline-md text-headline-md text-on-surface" href="#">About Us</a>
+        <a class="font-headline-md text-headline-md text-on-surface" href="#">Training</a>
+        <a class="font-headline-md text-headline-md text-deep-maroon font-bold" href="#">Contact</a>
+    </div>
+    <main class="pt-20">
+        <!-- Hero Section -->
+        <section
+            class="relative min-h-[420px] md:min-h-[520px] bg-hero flex items-center justify-center text-center px-margin-mobile md:px-margin-desktop overflow-hidden py-20">
+            <div class="relative z-10 max-w-3xl mx-auto space-y-5">
+                <h1 class="font-display-lg text-display-lg text-on-primary leading-tight">Get in Touch with Our
+                    Experts</h1>
+                <p class="font-body-lg text-body-lg text-primary-fixed drop-shadow-md max-w-2xl mx-auto">Kami siap
+                    membantu kebutuhan
+                    pelatihan dan sertifikasi industri Anda.</p>
+            </div>
+            <!-- Decorative blur element -->
+            <div class="absolute -bottom-12 -right-12 w-64 h-64 bg-deep-maroon/20 blur-[100px] rounded-full"></div>
+        </section>
+        <!-- Main Content Area -->
+        <section class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-16 md:py-section-gap">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 xl:gap-14 items-start">
+                <!-- Contact Info Column (Asymmetric Layout) -->
+                <div class="lg:col-span-5 space-y-10">
+                    <div class="space-y-5">
+                        <span
+                            class="inline-block px-3 py-1 bg-primary-fixed text-primary font-label-md text-label-md rounded-full uppercase tracking-wider">Connect
+                            with Us</span>
+                        <h2 class="font-headline-lg text-headline-lg text-deep-maroon">Our Hub</h2>
+                        <p class="text-on-surface-variant font-body-md max-w-md leading-relaxed">Reach out through any
+                            of these
+                            channels. Our team typically responds within 24 business hours.</p>
+                    </div>
+                    <!-- Contact Detail Cards -->
+                    <div class="space-y-5">
+                        <!-- Office -->
+                        <div
+                            class="flex items-start gap-5 p-6 md:p-7 bg-surface-container-low rounded-xl border border-outline-variant/20 transition-all duration-300 card-lift">
+                            <div
+                                class="w-14 h-14 bg-deep-maroon flex items-center justify-center rounded-lg text-on-primary shrink-0">
+                                <span class="material-symbols-outlined" data-icon="location_on">location_on</span>
+                            </div>
+                            <div>
+                                <h3 class="font-label-md text-label-md text-on-surface-variant">Head Office</h3>
+                                <p class="font-body-md text-on-surface mt-1">PT Cutting Edge Indonesia
+                                    (Cutting Edge Group)
+                                    Perkantoran Surabaya Commercial Center (SCC) A-28, Jl Kalirungkut 25, Rungkut,
+                                    Surabaya, Jawa Timur, Indonesia
+                                    Kode Pos : 60293.</p>
+                            </div>
+                        </div>
+                        <!-- Phone -->
+                        <div
+                            class="flex items-start gap-5 p-6 md:p-7 bg-surface-container-low rounded-xl border border-outline-variant/20 transition-all duration-300 card-lift">
+                            <div
+                                class="w-14 h-14 bg-deep-maroon flex items-center justify-center rounded-lg text-on-primary shrink-0">
+                                <span class="material-symbols-outlined" data-icon="call">call</span>
+                            </div>
+                            <div>
+                                <h3 class="font-label-md text-label-md text-on-surface-variant">Phone Support</h3>
+                                <p class="font-body-md text-on-surface mt-1">Office : (031) 58283816</p>
+                                <p class="font-body-md text-on-surface mt-1">+62 8113587922 (Rizda)</p>
+                                <p class="font-body-md text-on-surface mt-1">+62 85111657677 (CR1)</p>
+                                <p class="font-body-md text-on-surface mt-1">+62 85111677776 (CR2)</p>
+                                <p class="font-body-md text-on-surface mt-1">+62 81233398316 (CR3)</p>
+
+                            </div>
+                        </div>
+                        <!-- Email -->
+                        <div
+                            class="flex items-start gap-5 p-6 md:p-7 bg-surface-container-low rounded-xl border border-outline-variant/20 transition-all duration-300 card-lift">
+                            <div
+                                class="w-14 h-14 bg-deep-maroon flex items-center justify-center rounded-lg text-on-primary shrink-0">
+                                <span class="material-symbols-outlined" data-icon="mail">mail</span>
+                            </div>
+                            <div>
+                                <h3 class="font-label-md text-label-md text-on-surface-variant">Direct Inquiry</h3>
+                                <p class="font-body-md text-on-surface mt-1">office@cuttingedgegroup.net</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- WhatsApp Support Section -->
+                    <div class="pt-8 border-t border-outline-variant/30">
+                        <h3 class="font-headline-md text-headline-md text-deep-maroon mb-5">WhatsApp Support</h3>
+                        <div class="flex flex-wrap gap-4">
+                            <a class="flex items-center gap-3 px-6 py-3.5 bg-white border border-outline-variant/50 rounded-lg font-label-md text-label-md hover:border-deep-maroon hover:shadow-md transition-all duration-300 group"
+                                href="#">
+                                <span class="material-symbols-outlined text-[#25D366]" data-icon="chat">chat</span>
+                                <span>Support: Rizda</span>
+                                <span
+                                    class="material-symbols-outlined text-deep-maroon opacity-0 group-hover:opacity-100 transition-opacity"
+                                    data-icon="arrow_forward">arrow_forward</span>
+                            </a>
+                            <a class="flex items-center gap-3 px-6 py-3.5 bg-white border border-outline-variant/50 rounded-lg font-label-md text-label-md hover:border-deep-maroon hover:shadow-md transition-all duration-300 group"
+                                href="#">
+                                <span class="material-symbols-outlined text-[#25D366]" data-icon="forum">forum</span>
+                                <span>Customer Relations</span>
+                                <span
+                                    class="material-symbols-outlined text-deep-maroon opacity-0 group-hover:opacity-100 transition-opacity"
+                                    data-icon="arrow_forward">arrow_forward</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Contact Form Column (Bento-style depth) -->
+                <div
+                    class="lg:col-span-7 bg-white p-6 sm:p-8 md:p-12 rounded-2xl shadow-[0_4px_20px_rgba(0,0,0,0.05)] border border-outline-variant/10 relative overflow-hidden">
+                    <!-- Subtle background decoration -->
+                    <div class="absolute top-0 right-0 p-8 opacity-5">
+                        <span class="material-symbols-outlined text-9xl text-deep-maroon" data-icon="contact_support"
+                            style="font-variation-settings: 'FILL' 1;">contact_support</span>
+                    </div>
+                    <form class="relative z-10 space-y-7">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+                            <div class="space-y-2.5">
+                                <label class="font-label-md text-label-md text-on-surface-variant">Full Name</label>
+                                <input
+                                    class="w-full bg-surface-gray border-none focus:ring-2 focus:ring-deep-maroon rounded-lg px-4 py-3.5 font-body-md transition-all"
+                                    placeholder="Your name" type="text" />
+                            </div>
+                            <div class="space-y-2.5">
+                                <label class="font-label-md text-label-md text-on-surface-variant">Company</label>
+                                <input
+                                    class="w-full bg-surface-gray border-none focus:ring-2 focus:ring-deep-maroon rounded-lg px-4 py-3.5 font-body-md transition-all"
+                                    placeholder="Your organization" type="text" />
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+                            <div class="space-y-2.5">
+                                <label class="font-label-md text-label-md text-on-surface-variant">Email Address</label>
+                                <input
+                                    class="w-full bg-surface-gray border-none focus:ring-2 focus:ring-deep-maroon rounded-lg px-4 py-3.5 font-body-md transition-all"
+                                    placeholder="email@company.com" type="email" />
+                            </div>
+                            <div class="space-y-2.5">
+                                <label class="font-label-md text-label-md text-on-surface-variant">Service
+                                    Interest</label>
+                                <select
+                                    class="w-full bg-surface-gray border-none focus:ring-2 focus:ring-deep-maroon rounded-lg px-4 py-3.5 font-body-md transition-all appearance-none">
+                                    <option>Select a service</option>
+                                    <option>K3 Certification</option>
+                                    <option>ISO Standards</option>
+                                    <option>Food Safety / Halal</option>
+                                    <option>BNSP Training</option>
+                                    <option>Other Services</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="space-y-2.5">
+                            <label class="font-label-md text-label-md text-on-surface-variant">Your Message</label>
+                            <textarea
+                                class="w-full bg-surface-gray border-none focus:ring-2 focus:ring-deep-maroon rounded-lg px-4 py-3.5 font-body-md transition-all"
+                                placeholder="How can we help you achieve excellence?" rows="4"></textarea>
+                        </div>
+                        <div class="flex items-start gap-3 pt-1">
+                            <input
+                                class="rounded text-deep-maroon focus:ring-deep-maroon w-5 h-5 border-outline-variant mt-0.5 shrink-0"
+                                id="privacy" type="checkbox" />
+                            <label class="text-caption font-caption text-on-surface-variant" for="privacy">
+                                I agree to the <a class="text-deep-maroon underline" href="#">Privacy Policy</a> and
+                                consent to being contacted.
+                            </label>
+                        </div>
+                        <button
+                            class="w-full md:w-auto px-10 py-4 bg-deep-maroon text-on-primary font-label-md text-label-md rounded-lg hover:bg-primary-container transition-all duration-300 flex items-center justify-center gap-3 active:scale-95 shadow-md hover:shadow-xl"
+                            type="submit">
+                            Send Message
+                            <span class="material-symbols-outlined" data-icon="send">send</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- Map Section -->
+        <section class="w-full h-[450px] md:h-[520px] relative mt-6">
+            <!-- Map Placeholder -->
+            <div class="absolute inset-0 bg-surface-dim flex items-center justify-center overflow-hidden">
+                <img alt="Map of Surabaya" class="w-full h-full object-cover grayscale contrast-125 opacity-40"
+                    data-alt="A clean, minimalist high-end digital map rendering of the city of Surabaya, Indonesia. The map uses a sophisticated corporate color palette of light grays and whites with deep maroon highlights for key infrastructure and landmarks. The aesthetic is modern and professional, appearing as a background element for a corporate website. Subtle shadows and clear vector lines define the urban grid."
+                    data-location="Surabaya"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCw9bM9Eujzrol9zSWv7zuBfht13Jj4OuLQNJcGZlN1HeLOfk-F8soSwo456gW5md8AmVCW3zx9NVo7D4510AbinEf0WRWWMrbAV4cfCMZHkMFZAlh0C9wfqKr7l4Nnj2eDtWjfaMLy1Z8Kg-a8C41RpGiJbJRZeQO0vvAX3TjjiGN7yJr0Z4OCh982mpHwoj4O8Um1iD-e3WZ4Q0WdV2r2uPnTlaVM9DDAt9qC8I4DZwOVk0ypApYy9RhT0XD7GF3K24-diu-PmnSC" />
+                <div class="absolute z-10 flex flex-col items-center">
+                    <div
+                        class="w-16 h-16 bg-deep-maroon rounded-full flex items-center justify-center text-on-primary animate-bounce shadow-xl">
+                        <span class="material-symbols-outlined text-3xl" data-icon="location_pin"
+                            style="font-variation-settings: 'FILL' 1;">location_pin</span>
+                    </div>
+                    <div class="mt-4 bg-white p-4 rounded-xl shadow-lg border border-outline-variant/30 text-center">
+                        <p class="font-label-md text-label-md text-deep-maroon">PT Cutting Edge Indonesia</p>
+                        <p class="font-caption text-caption text-on-surface-variant">SCC A-28, Surabaya</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div id="site-footer"></div>
+    <script src="src/js/index.js" defer></script>
+    <script src="src/js/contact.js" defer></script>
+</body>
+
+</html>
