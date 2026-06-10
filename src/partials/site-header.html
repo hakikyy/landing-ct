@@ -1,19 +1,40 @@
 <!-- Shared Header -->
 <header id="site-header" class="fixed top-0 w-full z-50 bg-white/70 backdrop-blur-xl transition-all duration-300 shadow-sm h-20 flex items-center">
-    <div class="flex justify-between items-center max-w-container-max mx-auto px-margin-desktop w-full">
+    <div class="flex justify-between items-center max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop w-full">
         <div class="flex items-center gap-4">
-            <img alt="PT Cutting Edge Logo" class="h-20 w-auto object-contain" src="./src/assets/images/logo/Logo.png" />
-            <span class="font-headline-md text-headline-md font-bold text-deep-maroon">Cutting Edge Indonesia</span>
+            <img alt="PT Cutting Edge Logo" class="h-14 md:h-20 w-auto object-contain" src="./src/assets/images/logo/Logo.png" />
+            <span class="hidden sm:inline font-headline-md text-headline-md font-bold text-deep-maroon">Cutting Edge Indonesia</span>
         </div>
         <nav class="hidden md:flex items-center gap-8">
-            <a data-nav-link="home" class="font-label-md text-label-md text-on-secondary-container hover:text-deep-maroon transition-colors duration-200" href="index.html">Home</a>
-            <a data-nav-link="services" class="font-label-md text-label-md text-on-secondary-container hover:text-deep-maroon transition-colors duration-200" href="services.html">Services</a>
-            <a class="font-label-md text-label-md text-on-secondary-container hover:text-deep-maroon transition-colors duration-200" href="about.html">About</a>
-            <a class="font-label-md text-label-md text-on-secondary-container hover:text-deep-maroon transition-colors duration-200" href="contact.html">Contact</a>
+            <a data-nav-link="home" class="inline-flex items-center pb-1 border-b-2 border-transparent font-label-md text-label-md text-on-secondary-container hover:text-deep-maroon transition-colors duration-200" href="index.html">Home</a>
+            <a data-nav-link="services" class="inline-flex items-center pb-1 border-b-2 border-transparent font-label-md text-label-md text-on-secondary-container hover:text-deep-maroon transition-colors duration-200" href="services.html">Services</a>
+            <a data-nav-link="about" class="inline-flex items-center pb-1 border-b-2 border-transparent font-label-md text-label-md text-on-secondary-container hover:text-deep-maroon transition-colors duration-200" href="about.html">About</a>
+            <a data-nav-link="contact" class="inline-flex items-center pb-1 border-b-2 border-transparent font-label-md text-label-md text-on-secondary-container hover:text-deep-maroon transition-colors duration-200" href="contact.html">Contact</a>
             <button class="bg-deep-maroon text-white px-6 py-2.5 rounded-lg font-label-md hover:scale-105 transition-transform active:scale-95 shadow-md">Get Started</button>
         </nav>
-        <button id="mobile-toggle" class="md:hidden text-deep-maroon">
+        <button id="mobile-toggle" aria-controls="mobile-menu" aria-expanded="false" class="md:hidden inline-flex items-center justify-center w-11 h-11 rounded-lg border border-outline-variant/30 text-deep-maroon bg-white/80" type="button">
             <span class="material-symbols-outlined">menu</span>
         </button>
     </div>
 </header>
+<div aria-hidden="true" class="fixed inset-0 z-[60] hidden md:hidden" id="mobile-menu">
+    <div class="absolute inset-0 bg-black/40" data-mobile-menu-close></div>
+    <div class="absolute right-0 top-0 h-full w-full max-w-sm bg-white shadow-2xl flex flex-col">
+        <div class="flex items-center justify-between px-6 py-5 border-b border-outline-variant/30">
+            <div>
+                <p class="font-label-md text-label-md text-on-secondary-container uppercase tracking-widest">Menu</p>
+                <p class="font-headline-md text-headline-md text-deep-maroon">Cutting Edge</p>
+            </div>
+            <button class="inline-flex items-center justify-center w-11 h-11 rounded-lg border border-outline-variant/30 text-deep-maroon" data-mobile-menu-close type="button">
+                <span class="material-symbols-outlined">close</span>
+            </button>
+        </div>
+        <nav class="flex flex-col gap-2 px-6 py-6">
+            <a data-mobile-menu-link data-nav-link="home" class="inline-flex items-center justify-between rounded-xl px-4 py-4 border-b-2 border-transparent font-label-md text-label-md text-on-secondary-container hover:text-deep-maroon hover:bg-surface-gray transition-all duration-200" href="index.html">Home</a>
+            <a data-mobile-menu-link data-nav-link="services" class="inline-flex items-center justify-between rounded-xl px-4 py-4 border-b-2 border-transparent font-label-md text-label-md text-on-secondary-container hover:text-deep-maroon hover:bg-surface-gray transition-all duration-200" href="services.html">Services</a>
+            <a data-mobile-menu-link data-nav-link="about" class="inline-flex items-center justify-between rounded-xl px-4 py-4 border-b-2 border-transparent font-label-md text-label-md text-on-secondary-container hover:text-deep-maroon hover:bg-surface-gray transition-all duration-200" href="about.html">About</a>
+            <a data-mobile-menu-link data-nav-link="contact" class="inline-flex items-center justify-between rounded-xl px-4 py-4 border-b-2 border-transparent font-label-md text-label-md text-on-secondary-container hover:text-deep-maroon hover:bg-surface-gray transition-all duration-200" href="contact.html">Contact</a>
+            <button class="mt-4 bg-deep-maroon text-white px-6 py-3 rounded-lg font-label-md hover:scale-[1.01] transition-transform active:scale-95 shadow-md" type="button">Get Started</button>
+        </nav>
+    </div>
+</div>

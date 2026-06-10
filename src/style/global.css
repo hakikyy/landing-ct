@@ -259,6 +259,42 @@
     background-color: rgba(255, 255, 255, 0.95);
 }
 
+@media (max-width: 767px) {
+    .px-margin-desktop {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .py-section-gap {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+
+    .text-display-lg {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .text-headline-lg {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .text-headline-md {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .text-body-lg {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .gap-gutter {
+        gap: 16px;
+    }
+}
+
 .bg-white\/10 {
     background-color: rgba(255, 255, 255, 0.1);
 }

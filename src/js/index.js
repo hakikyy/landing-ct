@@ -14,19 +14,7 @@ async function loadSharedHeader() {
 
         mountPoint.innerHTML = await response.text();
         setActiveNavLink();
-
-        // Wire mobile toggle to page-specific handler (if present) or fallback
-        const mobileToggle = document.getElementById('mobile-toggle');
-        if (mobileToggle) {
-            mobileToggle.addEventListener('click', () => {
-                if (typeof window.toggleMobileMenu === 'function') {
-                    window.toggleMobileMenu();
-                } else {
-                    const menu = document.getElementById('mobile-menu');
-                    if (menu) menu.classList.toggle('hidden');
-                }
-            });
-        }
+        initMobileMenu();
     } catch (error) {
         console.warn(error);
     }
@@ -53,17 +41,77 @@ async function loadSharedFooter() {
 function setActiveNavLink() {
     const currentPath = window.location.pathname.split('/').pop() || 'index.html';
     const normalizedPath = currentPath === '' ? 'index.html' : currentPath;
+    const activeNavKeyByPath = {
+        'index.html': 'home',
+        'services.html': 'services',
+        'about.html': 'about',
+        'contact.html': 'contact',
+    };
+
+    const activeNavKey = activeNavKeyByPath[normalizedPath];
 
     document.querySelectorAll('[data-nav-link]').forEach(link => {
-        const isActive = (normalizedPath === 'index.html' && link.getAttribute('data-nav-link') === 'home')
-            || (normalizedPath === 'services.html' && link.getAttribute('data-nav-link') === 'services');
+        const isActive = link.getAttribute('data-nav-link') === activeNavKey;
 
         link.classList.toggle('text-deep-maroon', isActive);
         link.classList.toggle('border-b-2', isActive);
         link.classList.toggle('border-deep-maroon', isActive);
         link.classList.toggle('font-bold', isActive);
         link.classList.toggle('text-on-secondary-container', !isActive);
+        link.setAttribute('aria-current', isActive ? 'page' : 'false');
     });
+}
+
+function toggleMobileMenu(forceOpen) {
+    const menu = document.getElementById('mobile-menu');
+    const toggleButton = document.getElementById('mobile-toggle');
+
+    if (!menu) {
+        return;
+    }
+
+    const shouldOpen = typeof forceOpen === 'boolean' ? forceOpen : menu.classList.contains('hidden');
+
+    menu.classList.toggle('hidden', !shouldOpen);
+    menu.setAttribute('aria-hidden', shouldOpen ? 'false' : 'true');
+    document.body.classList.toggle('overflow-hidden', shouldOpen);
+
+    if (toggleButton) {
+        toggleButton.setAttribute('aria-expanded', shouldOpen ? 'true' : 'false');
+    }
+}
+
+function initMobileMenu() {
+    const menu = document.getElementById('mobile-menu');
+    const toggleButton = document.getElementById('mobile-toggle');
+
+    if (!menu || !toggleButton) {
+        return;
+    }
+
+    toggleButton.addEventListener('click', () => toggleMobileMenu());
+
+    menu.addEventListener('click', event => {
+        const target = event.target;
+
+        if (target instanceof Element && (target.closest('[data-mobile-menu-close]') || target.closest('[data-mobile-menu-link]'))) {
+            toggleMobileMenu(false);
+        }
+    });
+
+    window.addEventListener('keydown', event => {
+        if (event.key === 'Escape') {
+            toggleMobileMenu(false);
+        }
+    });
+
+    window.addEventListener('resize', () => {
+        if (window.innerWidth >= 768) {
+            toggleMobileMenu(false);
+        }
+    });
+
+    window.toggleMobileMenu = toggleMobileMenu;
 }
 
 window.addEventListener('scroll', () => {
@@ -165,15 +213,17 @@ const clients = [
 
 const marquee = document.getElementById("client-marquee");
 
-marquee.innerHTML = `
-    <div class="flex items-center gap-16 px-8">
-        ${[...clients, ...clients].map((logo, index) => `
-            <div class="client-logo-wrapper">
-                <img
-                    src="./src/assets/images/customer/${logo}"
-                    alt="Client ${index + 1}"
-                >
-            </div>
-        `).join("")}
-    </div>
-`;
+if (marquee) {
+    marquee.innerHTML = `
+        <div class="flex items-center gap-16 px-8">
+            ${[...clients, ...clients].map((logo, index) => `
+                <div class="client-logo-wrapper">
+                    <img
+                        src="./src/assets/images/customer/${logo}"
+                        alt="Client ${index + 1}"
+                    >
+                </div>
+            `).join("")}
+        </div>
+    `;
+}

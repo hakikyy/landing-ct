@@ -37,17 +37,19 @@
 const toggleBtn = document.getElementById('toggleExperts');
 const extraExperts = document.querySelectorAll('.extra-expert');
 
-let isExpanded = false;
+if (toggleBtn && extraExperts.length) {
+    let isExpanded = false;
 
-toggleBtn.addEventListener('click', () => {
-    isExpanded = !isExpanded;
+    toggleBtn.addEventListener('click', () => {
+        isExpanded = !isExpanded;
 
-    extraExperts.forEach(expert => {
-        expert.classList.toggle('hidden');
+        extraExperts.forEach(expert => {
+            expert.classList.toggle('hidden');
+        });
+
+        toggleBtn.textContent = isExpanded
+            ? 'Show Less Experts'
+            : 'Show More Experts';
     });
-
-    toggleBtn.textContent = isExpanded
-        ? 'Show Less Experts'
-        : 'Show More Experts';
-});
+}
 })();
