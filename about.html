@@ -40,22 +40,25 @@
     <div id="site-header"></div>
     <main class="pt-[72px]">
         <!-- Hero Section -->
-        <section class="relative min-h-[520px] md:min-h-[640px] py-24 md:py-32 flex items-center overflow-hidden">
+        <section class="relative min-h-screen flex items-center pt-20 overflow-hidden">
             <div class="absolute inset-0 z-0">
                 <div class="absolute inset-0 bg-gradient-to-r from-deep-maroon/80 to-transparent z-10"></div>
-                <img alt="PT Cutting Edge Indonesia Headquarters" class="w-full h-full object-cover"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCtYe73dQYXyff7BrRSLTVUT3iOX6j1ZF-ns8wnF7z5zboe77wGPlkua4ual0sEEiJA5iWkjLp4rsWX-Ma9vZiFKr7s8ZnwYdmF6vRaJaKp-_eitnoWF4Ijk37ESoziJQ7_63BXf3C92MdJqnJkMvKWZ50liWQK56b1N3rXl63wdYQrC0_tscOVDvzQwV0R0PqaaWFzvBGylx9cWdpkjziylrwpX-NQVgtz9mDKT_ogwjg4TtEJe8Cyo_1t5Iq-X2quttIOOZMhcJao" />
+                <img alt="Cutting Edge Hero Banner" class="parallax-bg w-full h-full object-cover absolute inset-0"
+                    id="parallax-img" src="./src/assets/images/logo/about.png" />
             </div>
             <div class="relative z-20 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto w-full">
-                <div class="max-w-2xl text-on-primary space-y-6">
+                <div class="max-w-2xl text-white space-y-6 -translate-y-1/4">
                     <span
-                        class="inline-block bg-white/20 backdrop-blur-md px-4 py-1 rounded-full text-label-md font-label-md mb-stack-md">CONSULTANCY
-                        &amp; COMPLIANCE</span>
-                    <h1 class="font-display-lg text-display-lg leading-tight">Towards Excellence With
-                        Cutting Edge</h1>
-                    <p class="font-body-lg text-body-lg opacity-90 leading-relaxed">Berpengalaman &amp; Terpercaya
-                        Selama Lebih dari 18
-                        Tahun dalam menghadirkan solusi industri terbaik di Indonesia.</p>
+                        class="inline-block bg-deep-maroon text-white px-4 py-1 rounded-full text-label-md font-label-md shadow-lg">
+                        CONSULTANCY &amp; COMPLIANCE
+                    </span>
+                    <h1 class="font-display-lg text-display-lg leading-tight text-deep-maroon">
+                        Towards Excellence With Cutting Edge
+                    </h1>
+                    <p class="font-body-lg text-body-lg text-gray-700 leading-relaxed">
+                        Berpengalaman &amp; Terpercaya Selama Lebih dari 18 Tahun dalam menghadirkan solusi industri
+                        terbaik di Indonesia.
+                    </p>
                 </div>
             </div>
         </section>
@@ -184,7 +187,8 @@
         <section class="py-20 md:py-28 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
             <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12 md:mb-16">
                 <div>
-                    <h2 class="font-headline-lg text-headline-lg text-deep-maroon">Meet Our Leading Experts</h2>
+                    <h2 class="font-headline-lg text-headline-lg text-deep-maroon force-headline-lg">Meet Our Leading
+                        Experts</h2>
                     <p class="font-body-md text-body-md text-on-surface-variant mt-stack-sm">Didukung oleh tenaga ahli
                         profesional dengan lisensi BNSP dan pengalaman internasional.</p>
                 </div>
@@ -338,31 +342,61 @@
             <div class="max-w-container-max mx-auto px-margin-desktop">
                 <div class="text-center max-w-3xl mx-auto mb-16">
                     <span
-                        class="inline-flex items-center px-4 py-2 rounded-full bg-deep-maroon/10 text-deep-maroon text-sm font-medium mb-6">
-                        <span class="material-symbols-outlined text-base mr-2">
+                        class="inline-flex items-center px-4 py-2 rounded-full bg-deep-maroon/10 text-deep-maroon font-headline-lg text-headline-lg text-deep-maroon mb-6">
+                        <span class="material-symbols-outlined text-xl mr-2">
                             verified
                         </span>
                         Trusted & Verified
                     </span>
-
                     <h2 class="font-headline-lg text-headline-lg text-on-surface mb-6">
                         Legal Compliance &
                         <span class="text-deep-maroon">
                             Business Certifications
                         </span>
                     </h2>
-
                     <p class="font-body-lg text-on-surface-variant">
                         PT Cutting Edge Indonesia operates under complete legal compliance
                         and is supported by nationally recognized certifications,
                         licenses, and business registrations.
                     </p>
-
                 </div>
-
                 <!-- Legal Carousel -->
                 <div class="marquee-track" id="legal-marquee"></div>
 
+            </div>
+        </section>
+        <section class="py-20 bg-white border-t border-outline-variant">
+            <div class="max-w-container-max mx-auto px-margin-desktop">
+                <div class="text-center mb-12">
+                    <span
+                        class="inline-block px-4 py-2 bg-deep-maroon/10 text-deep-maroon rounded-full font-headline-lg text-headline-lg font-semibold mb-4">
+                        Training Documentation
+                    </span>
+                    <h2 class="font-headline-lg text-headline-lg text-deep-maroon mb-4">
+                        Moments of Excellence
+                    </h2>
+                    <p class="max-w-3xl mx-auto text-on-secondary-container">
+                        Real training activities conducted across various industries and sectors.
+                    </p>
+                </div>
+                <div class="relative">
+                    <!-- Arrow Left -->
+                    <button id="prevBtn"
+                        class="absolute -left-12 top-1/2 -translate-y-1/2 z-10 w-12 h-12 rounded-full bg-white shadow-lg border border-gray-200 flex items-center justify-center hover:bg-deep-maroon hover:text-white transition">
+                        <span class="material-symbols-outlined">chevron_left</span>
+                    </button>
+                    <!-- Slider -->
+                    <div class="overflow-hidden">
+                        <div id="gallerySlider" class="flex transition-transform duration-500 ease-in-out">
+                            <!-- Diisi otomatis oleh JS -->
+                        </div>
+                    </div>
+                    <!-- Arrow Right -->
+                    <button id="nextBtn"
+                        class="absolute -right-12 top-1/2 -translate-y-1/2 z-10 w-12 h-12 rounded-full bg-white shadow-lg border border-gray-200 flex items-center justify-center hover:bg-deep-maroon hover:text-white transition">
+                        <span class="material-symbols-outlined">chevron_right</span>
+                    </button>
+                </div>
             </div>
         </section>
         <!-- CTA Section -->

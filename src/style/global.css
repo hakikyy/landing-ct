@@ -185,6 +185,12 @@
     font-weight: 700;
 }
 
+/* Force headline size for specific headings (overrides responsive rules when needed) */
+.force-headline-lg {
+    font-size: 32px !important;
+    line-height: 40px !important;
+}
+
 .text-headline-md {
     font-size: 24px;
     line-height: 32px;

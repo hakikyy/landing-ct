@@ -57,17 +57,47 @@
     <div id="site-header"></div>
     <main class="pt-20">
         <!-- Hero Section -->
-        <section
-            class="relative min-h-[420px] md:min-h-[520px] bg-hero flex items-center justify-center text-center px-margin-mobile md:px-margin-desktop overflow-hidden py-20">
-            <div class="relative z-10 max-w-3xl mx-auto space-y-5">
-                <h1 class="font-display-lg text-display-lg text-on-primary leading-tight">Get in Touch with Our
-                    Experts</h1>
-                <p class="font-body-lg text-body-lg text-primary-fixed drop-shadow-md max-w-2xl mx-auto">Kami siap
-                    membantu kebutuhan
-                    pelatihan dan sertifikasi industri Anda.</p>
+        <section class="relative min-h-screen flex items-center justify-center overflow-hidden">
+            <!-- Background -->
+            <div class="absolute inset-0 z-0">
+                <img src="./src/assets/images/logo/contact.png" alt="Contact Banner"
+                    class="w-full h-full object-cover" />
+                <!-- Overlay supaya teks lebih terbaca -->
+                <div class="absolute inset-0 bg-white/20 backdrop-blur-[1px]"></div>
             </div>
-            <!-- Decorative blur element -->
-            <div class="absolute -bottom-12 -right-12 w-64 h-64 bg-deep-maroon/20 blur-[100px] rounded-full"></div>
+            <!-- Content -->
+            <div class="relative z-20 max-w-4xl mx-auto px-margin-desktop text-center">
+                <span
+                    class="isymbols-online-flex items-center gap-2 px-5 py-2 rounded-full bg-deep-maroon text-white font-label-md shadow-lg mb-6">
+                    <span class="material-utlined text-base">
+                        support_agent
+                    </span>
+                    CONTACT US
+                </span>
+                <h1 class="font-display-lg text-display-lg text-deep-maroon mb-6">
+                    Let's Discuss Your Training & Certification Needs
+                </h1>
+                <p class="font-body-lg text-body-lg text-gray-700 max-w-2xl mx-auto mb-10">
+                    Our team is ready to help you find the right solution for training,
+                    certification, consulting, environmental management, food safety,
+                    occupational safety, and ISO systems.
+                </p>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <a href="tel:+628113587922"
+                        class="bg-deep-maroon text-white px-8 py-4 rounded-lg font-semibold hover:bg-red-900 transition-all shadow-lg">
+                        Call Us Now
+                    </a>
+                    <a href="#contact-form"
+                        class="bg-white border border-deep-maroon text-deep-maroon px-8 py-4 rounded-lg font-semibold hover:bg-deep-maroon hover:text-white transition-all">
+                        Send Message
+                    </a>
+                </div>
+            </div>
+            <!-- Decorative Blur -->
+            <div class="absolute -bottom-20 -right-20 w-72 h-72 bg-deep-maroon/20 blur-[120px] rounded-full">
+            </div>
+            <div class="absolute -top-20 -left-20 w-72 h-72 bg-red-500/10 blur-[120px] rounded-full">
+            </div>
         </section>
         <!-- Main Content Area -->
         <section class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-16 md:py-section-gap">

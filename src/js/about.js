@@ -78,3 +78,69 @@ if (legalMarquee) {
         </div>
     `;
 }
+
+const galleryImages = [
+    "Burizda.jpeg",
+    "Pelatihan1.jpeg",
+    "Pelatihan2.jpeg",
+    "Pelatihan3.jpeg",
+    "Pelatihan4.jpeg",
+    "Pelatihan5.jpeg",
+];
+
+const gallerySlider = document.getElementById("gallerySlider");
+
+galleryImages.forEach((image) => {
+    gallerySlider.innerHTML += `
+        <div class="w-full md:w-1/3 flex-shrink-0 px-3">
+            <img
+                src="./src/assets/images/training/${image}"
+                alt="Training Documentation"
+                class="w-full h-80 object-cover rounded-2xl shadow-md"
+            >
+        </div>
+    `;
+});
+
+/* Slider Pelatihan */
+
+const slider = document.getElementById("gallerySlider");
+const nextBtn = document.getElementById("nextBtn");
+const prevBtn = document.getElementById("prevBtn");
+
+const totalItems = slider.children.length;
+
+let currentIndex = 0;
+
+function getVisibleItems() {
+    return window.innerWidth >= 768 ? 3 : 1;
+}
+
+function updateSlider() {
+    const visibleItems = getVisibleItems();
+
+    const translate =
+        currentIndex * (100 / visibleItems);
+
+    slider.style.transform = `translateX(-${translate}%)`;
+}
+
+nextBtn.addEventListener("click", () => {
+    const visibleItems = getVisibleItems();
+
+    if (currentIndex < totalItems - visibleItems) {
+        currentIndex++;
+        updateSlider();
+    }
+});
+
+prevBtn.addEventListener("click", () => {
+    if (currentIndex > 0) {
+        currentIndex--;
+        updateSlider();
+    }
+});
+
+window.addEventListener("resize", updateSlider);
+
+updateSlider();

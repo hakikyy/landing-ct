@@ -15,6 +15,15 @@ async function loadSharedHeader() {
         mountPoint.innerHTML = await response.text();
         setActiveNavLink();
         initMobileMenu();
+        // Load translate script dynamically after header is mounted
+        try {
+            const s = document.createElement('script');
+            s.src = 'src/js/translate.js';
+            s.defer = true;
+            document.body.appendChild(s);
+        } catch (e) {
+            console.warn('Failed to load translate script', e);
+        }
     } catch (error) {
         console.warn(error);
     }
@@ -209,6 +218,11 @@ const clients = [
     "sambu.png",
     "ssp.png",
     "logo-jasuindo-color.png",
+    "inhil.webp",
+    "LOGO-ALBEA-BLEU--scaled.png",
+    "LogoFruters-91.png",
+    "marthys.png",
+    "bamboe.png",
 ];
 
 const marquee = document.getElementById("client-marquee");
