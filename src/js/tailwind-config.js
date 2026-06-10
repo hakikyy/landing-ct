@@ -73,14 +73,14 @@ window.tailwind.config = {
                 "section-gap": "80px"
             },
             "fontFamily": {
-                "headline-lg-mobile": ["Manrope"],
-                "body-md": ["Work Sans"],
-                "headline-lg": ["Manrope"],
-                "headline-md": ["Manrope"],
-                "display-lg": ["Manrope"],
-                "body-lg": ["Work Sans"],
-                "caption": ["Work Sans"],
-                "label-md": ["Work Sans"]
+                "headline-lg-mobile": ["Poppins"],
+                "body-md": ["Poppins"],
+                "headline-lg": ["Poppins"],
+                "headline-md": ["Poppins"],
+                "display-lg": ["Poppins"],
+                "body-lg": ["Poppins"],
+                "caption": ["Poppins"],
+                "label-md": ["Poppins"]
             },
             "fontSize": {
                 "headline-lg-mobile": ["28px", { "lineHeight": "36px", "fontWeight": "700" }],

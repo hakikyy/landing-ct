@@ -34,22 +34,47 @@
         bodyObserver.observe(document.body, { childList: true, subtree: true });
     });
 
-const toggleBtn = document.getElementById('toggleExperts');
-const extraExperts = document.querySelectorAll('.extra-expert');
+    const toggleBtn = document.getElementById('toggleExperts');
+    const extraExperts = document.querySelectorAll('.extra-expert');
 
-if (toggleBtn && extraExperts.length) {
-    let isExpanded = false;
+    if (toggleBtn && extraExperts.length) {
+        let isExpanded = false;
 
-    toggleBtn.addEventListener('click', () => {
-        isExpanded = !isExpanded;
+        toggleBtn.addEventListener('click', () => {
+            isExpanded = !isExpanded;
 
-        extraExperts.forEach(expert => {
-            expert.classList.toggle('hidden');
+            extraExperts.forEach(expert => {
+                expert.classList.toggle('hidden');
+            });
+
+            toggleBtn.textContent = isExpanded
+                ? 'Show Less Experts'
+                : 'Show More Experts';
         });
-
-        toggleBtn.textContent = isExpanded
-            ? 'Show Less Experts'
-            : 'Show More Experts';
-    });
-}
+    }
 })();
+
+const legalDocuments = [
+    "24.png",
+    "231.png",
+    "PT-9001-1.jpg",
+    "PT14001-1.jpg",
+    "PT45001-1.jpg",
+];
+
+const legalMarquee = document.getElementById("legal-marquee");
+
+if (legalMarquee) {
+    legalMarquee.innerHTML = `
+        <div class="flex items-center gap-8 px-8">
+            ${[...legalDocuments, ...legalDocuments].map((doc, index) => `
+                <div class="legal-card">
+                    <img
+                        src="./src/assets/images/legal-company/${doc}"
+                        alt="Legal Document ${index + 1}"
+                    >
+                </div>
+            `).join("")}
+        </div>
+    `;
+}
