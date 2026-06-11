@@ -18,7 +18,7 @@ async function loadSharedHeader() {
         // Load translate script dynamically after header is mounted
         try {
             const s = document.createElement('script');
-            s.src = 'src/js/translate.js';
+            // s.src = 'src/js/translate.js';
             s.defer = true;
             document.body.appendChild(s);
         } catch (e) {
