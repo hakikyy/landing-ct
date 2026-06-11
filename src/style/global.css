@@ -559,3 +559,78 @@
     .reveal-on-scroll .expert-card:nth-child(2) { transition-delay: 0.08s; }
     .reveal-on-scroll .expert-card:nth-child(3) { transition-delay: 0.12s; }
 }
+
+/* Line Process Services */
+
+.step-card {
+    position: relative;
+    z-index: 10;
+    max-width: 220px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.step-bubble {
+    width: 64px;
+    height: 64px;
+    border-radius: 999px;
+    background: #fff;
+    border: 2px solid #8B0000;
+    color: #8B0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    box-shadow: 0 8px 20px rgba(139, 0, 0, 0.12);
+    transition: all 0.3s ease;
+}
+
+.step-bubble span {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.step-bubble.active,
+.step-card:hover .step-bubble {
+    background: #8B0000;
+    color: #fff;
+    transform: translateY(-6px) scale(1.08);
+    box-shadow: 0 16px 35px rgba(139, 0, 0, 0.3);
+}
+
+.step-card h4 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #1f1f1f;
+    margin-bottom: 8px;
+}
+
+.step-card p {
+    color: #666;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.progress-line {
+    width: 45%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, #8B0000, transparent);
+    animation: moveLine 2.5s linear infinite;
+}
+
+@keyframes moveLine {
+    0% {
+        transform: translateX(-120%);
+    }
+    100% {
+        transform: translateX(260%);
+    }
+}
+
+@media (max-width: 768px) {
+    .step-card {
+        max-width: 280px;
+    }
+}
