@@ -17,12 +17,9 @@
 </head>
 
 <body class="bg-background text-on-background font-body-md overflow-x-hidden">
-
     <div id="site-header"></div>
-
     <!-- Skeleton loader — shown while JS fetches data -->
     <div id="service-detail-skeleton">
-
         <!-- Skeleton Hero -->
         <div class="bg-deep-maroon min-h-[50vh] flex items-end pb-16">
             <div class="max-w-container-max mx-auto px-4 sm:px-6 lg:px-margin-desktop w-full pt-28">
@@ -39,7 +36,6 @@
                 </div>
             </div>
         </div>
-
         <!-- Skeleton Body -->
         <div class="max-w-container-max mx-auto px-4 sm:px-6 lg:px-margin-desktop py-16">
             <div class="grid lg:grid-cols-3 gap-10 animate-pulse">
@@ -64,16 +60,12 @@
             </div>
         </div>
     </div>
-
     <!-- Actual content — hidden until JS renders it -->
     <div id="service-detail-content" class="hidden"></div>
-
     <div id="site-footer"></div>
-
     <!-- Load shared scripts first, then detail logic -->
     <script src="src/js/index.js" defer></script>
     <script src="src/js/service-detail.js" defer></script>
-
 </body>
 
 </html>
