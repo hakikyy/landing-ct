@@ -5,6 +5,9 @@
             "category": "k3",
             "categoryLabel": "K3 / Occupational Health & Safety",
             "badge": "Kemnaker Certified",
+            "certifications": [
+                "kemnaker"
+            ],
             "title": "Ahli K3 Umum",
             "subtitle": "Sertifikasi Resmi Kementerian Ketenagakerjaan RI",
             "icon": "verified_user",
@@ -80,6 +83,9 @@
             "category": "k3",
             "categoryLabel": "K3 / Occupational Health & Safety",
             "badge": "ISO International",
+            "certifications": [
+                "internal"
+            ],
             "title": "ISO 45001:2018",
             "subtitle": "Occupational Health & Safety Management Systems",
             "icon": "shield_health",
@@ -138,7 +144,7 @@
                 "Konsultasi implementasi 1 bulan"
             ],
             "targetParticipants": "Manajer K3, Internal Auditor, Management Representative, dan tim implementasi ISO di perusahaan.",
-            "brochureUrl": "src/assets/docs/tpm.png",
+            "brochureUrl": "./src/assets/docs/tpm.png",
             "contactUrl": "contact.html"
         },
         {
@@ -146,6 +152,9 @@
             "category": "bnsp",
             "categoryLabel": "Sertifikasi BNSP",
             "badge": "BNSP Certified",
+            "certifications": [
+                "bnsp"
+            ],
             "title": "Training of Trainer (TOT)",
             "subtitle": "Sertifikasi Kompetensi Fasilitator & Instruktur BNSP",
             "icon": "school",
@@ -221,6 +230,9 @@
             "category": "iso",
             "categoryLabel": "ISO Management Systems",
             "badge": "ISO International",
+            "certifications": [
+                "internal"
+            ],
             "title": "ISO 9001:2015",
             "subtitle": "Quality Management Systems",
             "icon": "verified",
@@ -279,7 +291,7 @@
                 "Konsultasi implementasi 1 bulan"
             ],
             "targetParticipants": "Manajemen, Management Representative, Internal Auditor, dan tim implementasi mutu di semua jenis organisasi.",
-            "brochureUrl": "src/assets/docs/tpm.png",
+            "brochureUrl": "#",
             "contactUrl": "contact.html"
         },
         {
@@ -287,6 +299,9 @@
             "category": "food",
             "categoryLabel": "Food Safety & Halal",
             "badge": "Food Safety",
+            "certifications": [
+                "internal"
+            ],
             "title": "HACCP",
             "subtitle": "Hazard Analysis and Critical Control Points",
             "icon": "restaurant_menu",
@@ -353,6 +368,9 @@
             "category": "k3",
             "categoryLabel": "K3 / Occupational Health & Safety",
             "badge": "PP No. 50/2012",
+            "certifications": [
+                "internal"
+            ],
             "title": "SMK3",
             "subtitle": "Sistem Manajemen Keselamatan dan Kesehatan Kerja",
             "icon": "fact_check",

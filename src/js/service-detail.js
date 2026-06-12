@@ -1,51 +1,41 @@
 // service-detail.js
 // Reads ?id= from URL, fetches service data from JSON, renders the detail page.
-
 async function loadServiceDetail() {
     const params = new URLSearchParams(window.location.search);
     const serviceId = params.get('id');
-
     const container = document.getElementById('service-detail-content');
     const skeletonEl = document.getElementById('service-detail-skeleton');
-
     if (!serviceId) {
         renderError(container, skeletonEl, 'No service specified.', true);
         return;
     }
-
     try {
         const res = await fetch('src/data/services.json');
         if (!res.ok) throw new Error('Failed to load service data');
         const { services } = await res.json();
-
         const service = services.find(s => s.id === serviceId);
-
         if (!service) {
             renderError(container, skeletonEl, `Service "${serviceId}" not found.`, true);
             return;
         }
-
         // Update page <title>
         document.title = `${service.title} | PT Cutting Edge Indonesia`;
-
         // Update breadcrumb
         const breadcrumbName = document.getElementById('breadcrumb-service-name');
         if (breadcrumbName) breadcrumbName.textContent = service.title;
-
         // Hide skeleton, render content
         if (skeletonEl) skeletonEl.remove();
         container.innerHTML = buildDetailHTML(service);
         container.classList.remove('hidden');
-
         // Re-run reveal animations on newly injected content
         initRevealObserver();
-
+        // Init brochure modal after content is in DOM
+        initBrochureModal(service);
     } catch (err) {
         renderError(container, skeletonEl, 'Gagal memuat data. Silakan coba lagi.', false);
         console.error(err);
     }
 }
-
 function renderError(container, skeletonEl, message, showBack) {
     if (skeletonEl) skeletonEl.remove();
     if (!container) return;
@@ -60,8 +50,19 @@ function renderError(container, skeletonEl, message, showBack) {
         </div>
     `;
 }
-
 function buildDetailHTML(s) {
+    const hasBrochure = s.brochureUrl && s.brochureUrl !== '#';
+    // Certification badges config
+    const certConfig = {
+        bnsp: { label: 'BNSP Certified', emoji: '🏅', classes: 'bg-emerald-50 border-emerald-200 text-emerald-700' },
+        kemnaker: { label: 'Kemnaker RI', emoji: '🏛️', classes: 'bg-red-50 border-red-200 text-red-700' },
+        internal: { label: 'Sertifikat Pelatihan', emoji: '📄', classes: 'bg-blue-50 border-blue-200 text-blue-700' },
+    };
+    const certTypes = Array.isArray(s.certifications) ? s.certifications : ['internal'];
+    const certBadgesHTML = certTypes.map(c => {
+        const cfg = certConfig[c] || certConfig.internal;
+        return `<span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border font-label-md text-sm ${cfg.classes}">${cfg.emoji} ${cfg.label}</span>`;
+    }).join('');
     const syllabusHTML = s.syllabus.map((module, i) => `
         <div class="reveal-on-scroll bg-white rounded-xl border border-surface-variant hover:border-deep-maroon hover:shadow-md transition-all duration-300 overflow-hidden">
             <button
@@ -88,22 +89,74 @@ function buildDetailHTML(s) {
             </div>
         </div>
     `).join('');
-
     const objectivesHTML = s.objectives.map(o => `
         <li class="flex items-start gap-3">
             <span class="material-symbols-outlined text-deep-maroon mt-0.5 flex-shrink-0">task_alt</span>
             <span class="text-secondary text-body-md">${o}</span>
         </li>
     `).join('');
-
     const includesHTML = s.includes.map(inc => `
         <li class="flex items-start gap-2 text-secondary text-body-md">
             <span class="material-symbols-outlined text-sm mt-1 text-deep-maroon">check</span>
             ${inc}
         </li>
     `).join('');
-
+    const brochureBtn = hasBrochure
+        ? `<button id="btn-open-brochure"
+                class="w-full flex items-center justify-center gap-2 border border-deep-maroon text-deep-maroon px-6 py-4 rounded-lg font-label-md text-label-md hover:bg-deep-maroon hover:text-white transition-all">
+                <span class="material-symbols-outlined">image</span>
+                Lihat Brosur
+            </button>`
+        : `<button disabled
+                class="w-full flex items-center justify-center gap-2 border border-surface-variant text-secondary px-6 py-4 rounded-lg font-label-md text-label-md cursor-not-allowed opacity-50">
+                <span class="material-symbols-outlined">image</span>
+                Brosur Belum Tersedia
+            </button>`;
+    // Brochure modal — only injected if brochure exists
+    const brochureModal = hasBrochure ? `
+        <!-- Brochure Modal -->
+        <div id="brochure-modal"
+            class="fixed inset-0 z-[100] hidden items-center justify-center p-4"
+            aria-modal="true" role="dialog" aria-label="Brosur ${s.title}">
+            <!-- Backdrop -->
+            <div id="brochure-backdrop" class="absolute inset-0 bg-black/80 backdrop-blur-sm"></div>
+            <!-- Modal box -->
+            <div class="relative z-10 w-full max-w-2xl max-h-[90vh] flex flex-col bg-white rounded-2xl shadow-2xl overflow-hidden">
+                <!-- Modal header -->
+                <div class="flex items-center justify-between px-5 py-4 border-b border-surface-variant flex-shrink-0">
+                    <div>
+                        <p class="font-label-md text-label-md text-secondary uppercase tracking-widest">Brosur</p>
+                        <h3 class="font-headline-md text-headline-md text-text-primary">${s.title}</h3>
+                    </div>
+                    <button id="btn-close-brochure"
+                        class="w-10 h-10 rounded-lg border border-surface-variant flex items-center justify-center text-secondary hover:text-deep-maroon hover:border-deep-maroon transition-all"
+                        aria-label="Tutup">
+                        <span class="material-symbols-outlined">close</span>
+                    </button>
+                </div>
+                <!-- Image -->
+                <div class="overflow-auto flex-1 bg-surface-container-low flex items-center justify-center p-4">
+                    <img
+                        src="${s.brochureUrl}"
+                        alt="Brosur ${s.title}"
+                        class="max-w-full h-auto rounded-lg shadow-md object-contain"
+                        id="brochure-img"
+                    />
+                </div>
+                <!-- Modal footer -->
+                <div class="px-5 py-4 border-t border-surface-variant flex-shrink-0 flex justify-between items-center gap-3">
+                    <p class="text-secondary text-body-md text-sm">Klik kanan gambar untuk menyimpan</p>
+                    <a href="${s.brochureUrl}" download
+                        class="inline-flex items-center gap-2 bg-deep-maroon text-white px-5 py-2.5 rounded-lg font-label-md text-label-md hover:bg-primary transition-all text-sm">
+                        <span class="material-symbols-outlined text-sm">download</span>
+                        Simpan Gambar
+                    </a>
+                </div>
+            </div>
+        </div>
+    ` : '';
     return `
+        ${brochureModal}
         <!-- Hero -->
         <section class="relative min-h-[50vh] flex items-center justify-center overflow-hidden bg-deep-maroon">
             <div class="absolute inset-0 opacity-10"
@@ -195,14 +248,16 @@ function buildDetailHTML(s) {
                                 <span class="material-symbols-outlined">chat</span>
                                 WhatsApp Kami
                             </a>
-                        <button
-                            type="button"
-                            onclick="openBrochureModal('${s.brochureUrl}')"
-                            class="w-full flex items-center justify-center gap-2 border border-deep-maroon text-deep-maroon px-6 py-4 rounded-lg font-label-md text-label-md hover:bg-deep-maroon hover:text-white transition-all">
-                            <span class="material-symbols-outlined">visibility</span>
-                            Lihat Gambar
-                        </button>
+                            ${brochureBtn}
                         </div>
+                    </div>
+                    <!-- Certification Badges -->
+                    <div class="reveal-on-scroll bg-white rounded-2xl p-6 border border-surface-variant">
+                        <h3 class="font-headline-md text-headline-md text-primary mb-4 flex items-center gap-2">
+                            <span class="material-symbols-outlined text-deep-maroon">workspace_premium</span>
+                            Sertifikasi
+                        </h3>
+                        <div class="flex flex-wrap gap-2">${certBadgesHTML}</div>
                     </div>
                     <!-- What's Included -->
                     <div class="reveal-on-scroll bg-surface-container-low rounded-2xl p-6 border border-surface-variant">
@@ -227,44 +282,46 @@ function buildDetailHTML(s) {
                 </div>
             </div>
         </section>
-    <!-- Brochure Modal -->
-<div id="brochure-modal"
-    class="fixed inset-0 bg-black/80 z-[9999] hidden items-center justify-center p-4">
-
-    <div class="relative max-w-4xl w-full">
-
-        <!-- Tombol Close -->
-        <button onclick="closeBrochureModal()"
-            class="absolute -top-12 right-0 text-white hover:text-gray-300">
-            <span class="material-symbols-outlined text-4xl">close</span>
-        </button>
-
-        <!-- Gambar -->
-        <img id="brochure-image"
-            src=""
-            alt="Brochure Preview"
-            class="w-full max-h-[90vh] object-contain rounded-xl shadow-2xl bg-white">
-    </div>
-</div>
     `;
 }
-
+// Brochure modal logic
+function initBrochureModal(service) {
+    const modal = document.getElementById('brochure-modal');
+    const openBtn = document.getElementById('btn-open-brochure');
+    const closeBtn = document.getElementById('btn-close-brochure');
+    const backdrop = document.getElementById('brochure-backdrop');
+    if (!modal || !openBtn) return;
+    function openModal() {
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+        document.body.classList.add('overflow-hidden');
+    }
+    function closeModal() {
+        modal.classList.add('hidden');
+        modal.classList.remove('flex');
+        document.body.classList.remove('overflow-hidden');
+    }
+    openBtn.addEventListener('click', openModal);
+    closeBtn && closeBtn.addEventListener('click', closeModal);
+    backdrop && backdrop.addEventListener('click', closeModal);
+    // Close on Escape key
+    document.addEventListener('keydown', e => {
+        if (e.key === 'Escape') closeModal();
+    });
+}
 // Accordion interaction
 function initAccordions() {
     document.addEventListener('click', e => {
         const toggle = e.target.closest('.accordion-toggle');
         if (!toggle) return;
-
         const body = toggle.nextElementSibling;
         const icon = toggle.querySelector('.accordion-icon');
         const isOpen = !body.classList.contains('hidden');
-
         body.classList.toggle('hidden', isOpen);
         icon.style.transform = isOpen ? 'rotate(0deg)' : 'rotate(180deg)';
         toggle.setAttribute('aria-expanded', String(!isOpen));
     });
 }
-
 // Reusable reveal observer (same logic as index.js)
 function initRevealObserver() {
     const observer = new IntersectionObserver((entries, obs) => {
@@ -275,39 +332,8 @@ function initRevealObserver() {
             }
         });
     }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
-
     document.querySelectorAll('.reveal-on-scroll').forEach(el => observer.observe(el));
 }
-
-/*Brosur Modal Logic*/
-
-function openBrochureModal(imageUrl) {
-    const modal = document.getElementById('brochure-modal');
-    const image = document.getElementById('brochure-image');
-
-    image.src = imageUrl;
-    modal.classList.remove('hidden');
-    modal.classList.add('flex');
-
-    document.body.style.overflow = 'hidden';
-}
-
-function closeBrochureModal() {
-    const modal = document.getElementById('brochure-modal');
-
-    modal.classList.add('hidden');
-    modal.classList.remove('flex');
-
-    document.body.style.overflow = '';
-}
-
-// Tutup modal ketika klik area gelap
-document.getElementById('brochure-modal')?.addEventListener('click', function (e) {
-    if (e.target === this) {
-        closeBrochureModal();
-    }
-});
-
 document.addEventListener('DOMContentLoaded', () => {
     loadServiceDetail();
     initAccordions();

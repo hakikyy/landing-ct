@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html class="scroll-smooth" lang="en">
 
 <head>
@@ -45,31 +44,70 @@
             </div>
         </div>
     </section>
-    <!-- Service Navigation Anchor Bar -->
     <div class="sticky top-20 z-40 glass-nav shadow-sm border-b border-surface-variant">
-        <div
-            class="max-w-container-max mx-auto px-4 sm:px-6 lg:px-margin-desktop flex justify-start md:justify-center overflow-x-auto whitespace-nowrap py-4 gap-6 md:gap-8 no-scrollbar scroll-smooth">
-            <a class="text-secondary hover:text-deep-maroon font-label-md text-label-md transition-colors" href="#k3">
-                K3 &amp; Safety
-            </a>
-            <a class="text-secondary hover:text-deep-maroon font-label-md text-label-md transition-colors" href="#iso">
-                ISO Management
-            </a>
-            <a class="text-secondary hover:text-deep-maroon font-label-md text-label-md transition-colors" href="#food">
-                Food Safety &amp; Halal
-            </a>
-            <a class="text-secondary hover:text-deep-maroon font-label-md text-label-md transition-colors" href="#pjk3">
-                PJK3 Kemnaker
-            </a>
-            <a class="text-secondary hover:text-deep-maroon font-label-md text-label-md transition-colors" href="#bnsp">
-                Sertifikasi BNSP
-            </a>
-            <a class="text-secondary hover:text-deep-maroon font-label-md text-label-md transition-colors" href="#hr">
-                HR &amp; Soft Skills
-            </a>
-            <a class="text-secondary hover:text-deep-maroon font-label-md text-label-md transition-colors" href="#ops">
-                Operational Excellence
-            </a>
+        <div class="relative max-w-container-max mx-auto px-4 sm:px-6 lg:px-margin-desktop py-4">
+            <!-- Navigation -->
+            <div
+                class="flex justify-start md:justify-center overflow-x-auto whitespace-nowrap gap-6 md:gap-8 no-scrollbar scroll-smooth">
+                <a class="text-secondary hover:text-deep-maroon font-label-md transition-colors" href="#k3">
+                    K3 & Safety
+                </a>
+                <a class="text-secondary hover:text-deep-maroon font-label-md transition-colors" href="#iso">
+                    ISO Management
+                </a>
+                <a class="text-secondary hover:text-deep-maroon font-label-md transition-colors" href="#food">
+                    Food Safety & Halal
+                </a>
+                <a class="text-secondary hover:text-deep-maroon font-label-md transition-colors" href="#pjk3">
+                    PJK3 Kemnaker
+                </a>
+                <a class="text-secondary hover:text-deep-maroon font-label-md transition-colors" href="#bnsp">
+                    Sertifikasi BNSP
+                </a>
+                <a class="text-secondary hover:text-deep-maroon font-label-md transition-colors" href="#hr">
+                    HR & Soft Skills
+                </a>
+                <a class="text-secondary hover:text-deep-maroon font-label-md transition-colors" href="#ops">
+                    Operational Excellence
+                </a>
+            </div>
+            <!-- Filter -->
+            <div class="hidden lg:block absolute top-1/2 -right-20 -translate-y-1/2">
+                <div class="relative group">
+                    <button
+                        class="flex items-center gap-2 px-4 py-2 rounded-full border border-surface-variant bg-white shadow-sm hover:border-deep-maroon hover:text-deep-maroon transition-all">
+                        <span class="material-symbols-outlined text-[18px]">
+                            tune
+                        </span>
+                        <span class="font-label-md">
+                            Filter
+                        </span>
+                        <span class="material-symbols-outlined text-[18px]">
+                            expand_more
+                        </span>
+                    </button>
+                    <!-- Dropdown -->
+                    <div
+                        class="absolute right-0 mt-2 w-52 bg-white rounded-2xl shadow-xl border border-surface-variant overflow-hidden opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                        <button data-filter="all"
+                            class="cert-filter w-full px-5 py-3 text-left hover:bg-surface-gray transition-all">
+                            Semua Sertifikasi
+                        </button>
+                        <button data-filter="bnsp"
+                            class="cert-filter w-full px-5 py-3 text-left hover:bg-surface-gray transition-all">
+                            🏅 BNSP
+                        </button>
+                        <button data-filter="kemnaker"
+                            class="cert-filter w-full px-5 py-3 text-left hover:bg-surface-gray transition-all">
+                            🏛️ Kemnaker RI
+                        </button>
+                        <button data-filter="internal"
+                            class="cert-filter w-full px-5 py-3 text-left hover:bg-surface-gray transition-all">
+                            📄 Sertifikat Pelatihan
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!-- Service Categories -->
@@ -88,7 +126,7 @@
             </div>
             <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
                 <!-- Card 1 -->
-                <div
+                <div data-cert="internal"
                     class="group bg-white p-6 lg:p-8 rounded-xl border border-surface-variant hover:border-deep-maroon hover:shadow-xl hover-lift transition-all duration-500 flex flex-col justify-between gap-6 h-full">
                     <div>
                         <div
@@ -96,6 +134,9 @@
                             <span class="material-symbols-outlined" data-icon="shield_health">shield</span>
                         </div>
                         <h3 class="font-headline-md text-headline-md mb-4 text-text-primary">ISO 45001</h3>
+                        <span
+                            class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-blue-50 border border-blue-200 text-blue-700 font-label-md text-xs mb-4">📄
+                            Sertifikat Pelatihan</span>
                         <ul class="space-y-3 mb-0">
                             <li class="flex items-start gap-2 text-secondary text-body-md">
                                 <span
@@ -119,7 +160,7 @@
                         Detail</a>
                 </div>
                 <!-- Card 2 -->
-                <div
+                <div data-cert="internal"
                     class="group bg-white p-6 lg:p-8 rounded-xl border border-surface-variant hover:border-deep-maroon hover:shadow-xl hover-lift transition-all duration-500 flex flex-col justify-between gap-6 h-full">
                     <div>
                         <div
@@ -127,6 +168,9 @@
                             <span class="material-symbols-outlined" data-icon="fact_check">fact_check</span>
                         </div>
                         <h3 class="font-headline-md text-headline-md mb-4 text-text-primary">SMK3</h3>
+                        <span
+                            class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-blue-50 border border-blue-200 text-blue-700 font-label-md text-xs mb-4">📄
+                            Sertifikat Pelatihan</span>
                         <ul class="space-y-3 mb-0">
                             <li class="flex items-start gap-2 text-secondary text-body-md">
                                 <span
@@ -150,7 +194,7 @@
                         Detail</a>
                 </div>
                 <!-- Card 3 -->
-                <div
+                <div data-cert="internal"
                     class="group bg-white p-6 lg:p-8 rounded-xl border border-surface-variant hover:border-deep-maroon hover:shadow-xl hover-lift transition-all duration-500 flex flex-col justify-between gap-6 h-full">
                     <div>
                         <div
@@ -158,6 +202,9 @@
                             <span class="material-symbols-outlined" data-icon="contract">contract</span>
                         </div>
                         <h3 class="font-headline-md text-headline-md mb-4 text-text-primary">CSMS</h3>
+                        <span
+                            class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-blue-50 border border-blue-200 text-blue-700 font-label-md text-xs mb-4">📄
+                            Sertifikat Pelatihan</span>
                         <ul class="space-y-3 mb-0">
                             <li class="flex items-start gap-2 text-secondary text-body-md">
                                 <span
@@ -181,7 +228,7 @@
                         Detail</a>
                 </div>
                 <!-- Card 4 -->
-                <div
+                <div data-cert="internal"
                     class="group bg-white p-6 lg:p-8 rounded-xl border border-surface-variant hover:border-deep-maroon hover:shadow-xl hover-lift transition-all duration-500 flex flex-col justify-between gap-6 h-full">
                     <div>
                         <div
@@ -189,6 +236,9 @@
                             <span class="material-symbols-outlined" data-icon="emergency">emergency</span>
                         </div>
                         <h3 class="font-headline-md text-headline-md mb-4 text-text-primary">Investigation</h3>
+                        <span
+                            class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-blue-50 border border-blue-200 text-blue-700 font-label-md text-xs mb-4">📄
+                            Sertifikat Pelatihan</span>
                         <ul class="space-y-3 mb-0">
                             <li class="flex items-start gap-2 text-secondary text-body-md">
                                 <span
@@ -247,6 +297,9 @@
                     </div>
                     <div class="absolute bottom-0 left-0 p-6 lg:p-8 text-white">
                         <h3 class="font-headline-md text-headline-md mb-2">ISO 9001:2015</h3>
+                        <span
+                            class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-blue-50 border border-blue-200 text-blue-700 font-label-md text-xs mb-4">📄
+                            Sertifikat Pelatihan</span>
                         <p class="text-white/80 text-body-md mb-6">Mastering Quality Management Systems for
                             organizational consistency and customer satisfaction.</p>
                         <a href="service-detail.html?id=iso-9001"
@@ -267,6 +320,9 @@
                     </div>
                     <div class="absolute bottom-0 left-0 p-6 lg:p-8 text-white">
                         <h3 class="font-headline-md text-headline-md mb-2">ISO 14001:2015</h3>
+                        <span
+                            class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-blue-50 border border-blue-200 text-blue-700 font-label-md text-xs mb-4">📄
+                            Sertifikat Pelatihan</span>
                         <p class="text-white/80 text-body-md mb-6">Implementing robust Environmental Management Systems
                             to reduce ecological footprint.</p>
                         <a href="service-detail.html?id=iso-14001"
@@ -347,7 +403,7 @@
             </div>
             <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
                 <!-- Card 1 -->
-                <div
+                <div data-cert="kemnaker"
                     class="group bg-white p-6 lg:p-8 rounded-xl border border-surface-variant hover:border-deep-maroon hover:shadow-xl hover-lift transition-all duration-500 flex flex-col justify-between gap-6 h-full">
                     <div>
                         <div
@@ -355,6 +411,9 @@
                             <span class="material-symbols-outlined">verified_user</span>
                         </div>
                         <h3 class="font-headline-md text-headline-md mb-4 text-text-primary">Ahli K3 Umum</h3>
+                        <span
+                            class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-red-50 border border-red-200 text-red-700 font-label-md text-xs mb-4">🏛️
+                            Kemnaker RI</span>
                         <ul class="space-y-3 mb-0">
                             <li class="flex items-start gap-2 text-secondary text-body-md">
                                 <span
@@ -373,12 +432,12 @@
                             </li>
                         </ul>
                     </div>
-                    <a href="service-detail.html?id=ahli-k3-umum"
+                    <a href="contact.html"
                         class="w-full py-3 px-4 rounded-lg border border-deep-maroon text-deep-maroon font-label-md text-label-md hover:bg-deep-maroon hover:text-white transition-all text-center block">Inquire
                         Now</a>
                 </div>
                 <!-- Card 2 -->
-                <div
+                <div data-cert="kemnaker"
                     class="group bg-white p-6 lg:p-8 rounded-xl border border-surface-variant hover:border-deep-maroon hover:shadow-xl hover-lift transition-all duration-500 flex flex-col justify-between gap-6 h-full">
                     <div>
                         <div
@@ -386,6 +445,9 @@
                             <span class="material-symbols-outlined">fire_extinguisher</span>
                         </div>
                         <h3 class="font-headline-md text-headline-md mb-4 text-text-primary">Petugas K3 Kebakaran</h3>
+                        <span
+                            class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-red-50 border border-red-200 text-red-700 font-label-md text-xs mb-4">🏛️
+                            Kemnaker RI</span>
                         <ul class="space-y-3 mb-0">
                             <li class="flex items-start gap-2 text-secondary text-body-md">
                                 <span
@@ -409,7 +471,7 @@
                         Now</a>
                 </div>
                 <!-- Card 3 -->
-                <div
+                <div data-cert="kemnaker"
                     class="group bg-white p-6 lg:p-8 rounded-xl border border-surface-variant hover:border-deep-maroon hover:shadow-xl hover-lift transition-all duration-500 flex flex-col justify-between gap-6 h-full">
                     <div>
                         <div
@@ -418,6 +480,9 @@
                         </div>
                         <h3 class="font-headline-md text-headline-md mb-4 text-text-primary">Operator K3 Pesawat Uap
                             &amp; Bejana Tekan</h3>
+                        <span
+                            class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-red-50 border border-red-200 text-red-700 font-label-md text-xs mb-4">🏛️
+                            Kemnaker RI</span>
                         <ul class="space-y-3 mb-0">
                             <li class="flex items-start gap-2 text-secondary text-body-md">
                                 <span
@@ -441,7 +506,7 @@
                         Now</a>
                 </div>
                 <!-- Card 4 -->
-                <div
+                <div data-cert="kemnaker"
                     class="group bg-white p-6 lg:p-8 rounded-xl border border-surface-variant hover:border-deep-maroon hover:shadow-xl hover-lift transition-all duration-500 flex flex-col justify-between gap-6 h-full">
                     <div>
                         <div
@@ -450,6 +515,9 @@
                         </div>
                         <h3 class="font-headline-md text-headline-md mb-4 text-text-primary">Teknisi K3 Listrik &amp;
                             Riksa Uji</h3>
+                        <span
+                            class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-red-50 border border-red-200 text-red-700 font-label-md text-xs mb-4">🏛️
+                            Kemnaker RI</span>
                         <ul class="space-y-3 mb-0">
                             <li class="flex items-start gap-2 text-secondary text-body-md">
                                 <span
@@ -474,7 +542,6 @@
                 </div>
             </div>
         </section>
-
         <!-- Category: Sertifikasi BNSP -->
         <section class="scroll-offset" id="bnsp">
             <div class="bg-surface-container-low rounded-3xl p-6 md:p-10 lg:p-12 overflow-hidden relative">
@@ -492,46 +559,61 @@
                         diakui secara nasional dan internasional. Tingkatkan kredibilitas personil perusahaan Anda
                         melalui skema uji kompetensi resmi Badan Nasional Sertifikasi Profesi.</p>
                     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 mb-10">
-                        <div class="bg-white rounded-xl p-6 shadow-sm">
+                        <div data-cert="internal" class="bg-white rounded-xl p-6 shadow-sm">
                             <div class="flex items-center gap-3 mb-3">
                                 <span class="material-symbols-outlined text-deep-maroon">school</span>
                                 <h4 class="font-headline-md text-headline-md text-text-primary">Training of Trainer
                                     (TOT)</h4>
+                                <span
+                                    class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-700 font-label-md text-xs mt-2 mb-0">🏅
+                                    BNSP Certified</span>
                             </div>
                             <p class="text-secondary text-body-md">Sertifikasi fasilitator &amp; instruktur pelatihan
                                 yang diakui BNSP untuk pengembangan kapasitas internal.</p>
                         </div>
-                        <div class="bg-white rounded-xl p-6 shadow-sm">
+                        <div data-cert="internal" class="bg-white rounded-xl p-6 shadow-sm">
                             <div class="flex items-center gap-3 mb-3">
                                 <span class="material-symbols-outlined text-deep-maroon">manage_accounts</span>
                                 <h4 class="font-headline-md text-headline-md text-text-primary">Manajer / Supervisor SDM
                                 </h4>
+                                <span
+                                    class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-700 font-label-md text-xs mt-2 mb-0">🏅
+                                    BNSP Certified</span>
                             </div>
                             <p class="text-secondary text-body-md">Skema kompetensi Manajemen SDM untuk level Supervisor
                                 dan Manajer sesuai standar SKKNI.</p>
                         </div>
-                        <div class="bg-white rounded-xl p-6 shadow-sm">
+                        <div data-cert="internal" class="bg-white rounded-xl p-6 shadow-sm">
                             <div class="flex items-center gap-3 mb-3">
                                 <span class="material-symbols-outlined text-deep-maroon">inventory_2</span>
                                 <h4 class="font-headline-md text-headline-md text-text-primary">Logistik &amp;
                                     Distribusi</h4>
+                                <span
+                                    class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-700 font-label-md text-xs mt-2 mb-0">🏅
+                                    BNSP Certified</span>
                             </div>
                             <p class="text-secondary text-body-md">Sertifikasi kompetensi bidang logistik, supply chain,
                                 dan manajemen distribusi berstandar nasional.</p>
                         </div>
-                        <div class="bg-white rounded-xl p-6 shadow-sm">
+                        <div data-cert="internal" class="bg-white rounded-xl p-6 shadow-sm">
                             <div class="flex items-center gap-3 mb-3">
                                 <span class="material-symbols-outlined text-deep-maroon">safety_check</span>
                                 <h4 class="font-headline-md text-headline-md text-text-primary">K3 &amp; Lingkungan</h4>
+                                <span
+                                    class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-700 font-label-md text-xs mt-2 mb-0">🏅
+                                    BNSP Certified</span>
                             </div>
                             <p class="text-secondary text-body-md">Uji kompetensi bidang K3 dan lingkungan hidup yang
                                 terintegrasi dengan skema sertifikasi BNSP.</p>
                         </div>
-                        <div class="bg-white rounded-xl p-6 shadow-sm">
+                        <div data-cert="internal" class="bg-white rounded-xl p-6 shadow-sm">
                             <div class="flex items-center gap-3 mb-3">
                                 <span class="material-symbols-outlined text-deep-maroon">restaurant_menu</span>
                                 <h4 class="font-headline-md text-headline-md text-text-primary">Food Safety &amp; Halal
                                 </h4>
+                                <span
+                                    class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-700 font-label-md text-xs mt-2 mb-0">🏅
+                                    BNSP Certified</span>
                             </div>
                             <p class="text-secondary text-body-md">Sertifikasi kompetensi keamanan pangan dan jaminan
                                 produk halal untuk industri pengolahan makanan.</p>
@@ -543,9 +625,9 @@
                                 sertifikasi Anda.</p>
                         </div>
                     </div>
-                    <button
-                        class="bg-deep-maroon text-on-primary px-10 py-4 rounded-lg font-label-md text-label-md hover:bg-primary shadow-lg transition-all">Cek
-                        Skema Sertifikasi</button>
+                    <a href="bnsp-schemes.html"
+                        class="inline-flex items-center gap-2 bg-deep-maroon text-on-primary px-10 py-4 rounded-lg font-label-md text-label-md hover:bg-primary shadow-lg transition-all">Lihat
+                        Semua 68 Skema <span class="material-symbols-outlined text-sm">arrow_forward</span></a>
                 </div>
             </div>
         </section>
@@ -648,34 +730,12 @@
                     <h4>Improvement</h4>
                     <p>Sustaining growth with continuous auditing.</p>
                 </div>
-
             </div>
         </section>
     </main>
-    <!-- Final CTA Section -->
-    <!-- <section class="bg-deep-maroon py-16 lg:py-24 relative overflow-hidden"> -->
-        <!-- Decoration -->
-        <!-- <div class="absolute top-0 right-0 w-96 h-96 bg-white/5 rounded-full -translate-y-1/2 translate-x-1/2 blur-3xl">
-        </div>
-        <div
-            class="absolute bottom-0 left-0 w-64 h-64 bg-white/5 rounded-full translate-y-1/2 -translate-x-1/2 blur-2xl">
-        </div>
-        <div class="max-w-container-max mx-auto px-4 sm:px-6 lg:px-margin-desktop relative z-10 text-center text-white">
-            <h2 class="font-display-lg text-display-lg mb-8">Ready to Transform Your Operations?</h2>
-            <p class="text-body-lg opacity-80 max-w-2xl mx-auto mb-12">Connect with our consultants for a customized
-                development plan tailored to your industry's specific challenges and goals.</p>
-            <div class="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6">
-                <button
-                    class="bg-white text-deep-maroon px-12 py-5 rounded-lg font-label-md text-label-md hover:shadow-2xl transition-all font-bold">Get
-                    a Quote</button>
-                <button
-                    class="bg-transparent border border-white/40 text-white px-12 py-5 rounded-lg font-label-md text-label-md hover:bg-white/10 transition-all">Download
-                    Service Catalog</button>
-            </div>
-        </div>
-    </section> -->
     <div id="site-footer"></div>
     <script src="src/js/index.js" defer></script>
+    <script src="src/js/service.js" defer></script>
 </body>
 
 </html>

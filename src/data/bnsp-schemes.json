@@ -1,0 +1,343 @@
+{
+    "categories": [
+        {
+            "id": "k3",
+            "label": "K3 & Keselamatan Kerja",
+            "icon": "safety_check",
+            "color": "red",
+            "count": 26,
+            "schemes": [
+                {
+                    "name": "SMK3 Sistem Manajemen Kesehatan Keselamatan Kerja",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "ISO 45001 : 2018 Occupational Health and Safety",
+                    "type": "internal"
+                },
+                {
+                    "name": "CSMS (Contractor Safety Management System)",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Ahli K3 Umum Sertifikasi BNSP",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Pengawas K3 Industri Migas",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Auditor SMK3 Sertifikasi BNSP",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Authorized Gas Tester",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Penanganan Bahaya Gas H2S",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Operator K3",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Petugas K3",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Pengawas K3 RS dan Fasyankes",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Pengawas K3 Laboratorium",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Hazard and Operability Studies (HAZOPS)",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Pertolongan Pertama Pada Kecelakaan (P3K)",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Paramedis K3 Muda",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Paramedis K3 Madya",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Paramedis K3 Utama",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Pengkaji Teknis Proteksi Kebakaran",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Ahli Higiene Industri Muda",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Ahli Higiene Industri Madya",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Ahli Higiene Industri Utama",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Teknisi Ruang Terbatas",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Ahli Muda Ruang Terbatas",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Ahli Madya Ruang Terbatas",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Ahli Utama Ruang Terbatas",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Teknisi K3 Listrik",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Ahli K3 Listrik",
+                    "type": "bnsp"
+                }
+            ]
+        },
+        {
+            "id": "pjk3",
+            "label": "Pembinaan K3 / PJK3 Kemnaker",
+            "icon": "gavel",
+            "color": "maroon",
+            "count": 11,
+            "schemes": [
+                {
+                    "name": "Operator Boiler Kelas II",
+                    "type": "kemnaker"
+                },
+                {
+                    "name": "TKPK I (Teknisi K3 Ketinggian)",
+                    "type": "kemnaker"
+                },
+                {
+                    "name": "AK3 Umum",
+                    "type": "kemnaker"
+                },
+                {
+                    "name": "Operator Forklift Kelas II",
+                    "type": "kemnaker"
+                },
+                {
+                    "name": "Operator Bejana Tekan & Tangki Timbun",
+                    "type": "kemnaker"
+                },
+                {
+                    "name": "Operator Cargo Hoist Crane III",
+                    "type": "kemnaker"
+                },
+                {
+                    "name": "Petugas Peran Kebakaran Kelas D",
+                    "type": "kemnaker"
+                },
+                {
+                    "name": "Juru Ikat (Rigger)",
+                    "type": "kemnaker"
+                },
+                {
+                    "name": "P3K",
+                    "type": "kemnaker"
+                },
+                {
+                    "name": "Petugas Peran Kebakaran Kelas C",
+                    "type": "kemnaker"
+                },
+                {
+                    "name": "Petugas Peran Kebakaran Kelas B",
+                    "type": "kemnaker"
+                }
+            ]
+        },
+        {
+            "id": "environmental",
+            "label": "Lingkungan Hidup",
+            "icon": "eco",
+            "color": "green",
+            "count": 12,
+            "schemes": [
+                {
+                    "name": "Penanggung Jawab Operasional Instalasi Pengendalian Pencemaran Udara (POIPPU)",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Manajemen Pengelolaan Sampah / Limbah Padat Non B3 (MPS/PPLNB3)",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Operasional Pengolahan Sampah / Limbah Padat Non B3 (OPS/OPLNB3)",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Pengelolaan Penyimpanan Limbah B3 (PPLB3)",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Penanganan Limbah B3 (OPL B3)",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Penanganan Limbah B3 (OPL B3) Non BNSP",
+                    "type": "internal"
+                },
+                {
+                    "name": "Penanggung Jawab Operasional Pengolahan Air Limbah (POPAL)",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Penanggung Jawab Operasional Pengolahan Air Limbah (POPAL) Non BNSP",
+                    "type": "internal"
+                },
+                {
+                    "name": "Penanggung Jawab Pengendalian Pencemaran Air (PPPA)",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Penanggung Jawab Pengendalian Pencemaran Air (PPPA) Non BNSP",
+                    "type": "internal"
+                },
+                {
+                    "name": "Penanggung Jawab Pengendalian Pencemaran Udara (PPPU)",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Penanggung Jawab Pengendalian Pencemaran Udara (PPPU) Non BNSP",
+                    "type": "internal"
+                }
+            ]
+        },
+        {
+            "id": "kalibrasi",
+            "label": "Kalibrasi & Metrologi",
+            "icon": "straighten",
+            "color": "blue",
+            "count": 4,
+            "schemes": [
+                {
+                    "name": "Teknisi Kalibrasi Suhu",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Teknisi Kalibrasi Tekanan",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Teknisi Kalibrasi Volume",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Teknisi Kalibrasi Densitas",
+                    "type": "bnsp"
+                }
+            ]
+        },
+        {
+            "id": "halal",
+            "label": "Jaminan Halal",
+            "icon": "verified",
+            "color": "emerald",
+            "count": 3,
+            "schemes": [
+                {
+                    "name": "Penyelia Halal",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Auditor Halal",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Juru Sembelih Halal",
+                    "type": "bnsp"
+                }
+            ]
+        },
+        {
+            "id": "food",
+            "label": "Keamanan Pangan",
+            "icon": "restaurant_menu",
+            "color": "orange",
+            "count": 6,
+            "schemes": [
+                {
+                    "name": "Audit Internal Keamanan Pangan",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Audit Internal Provisi Keamanan Pangan",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Penjamah Makanan / Food Handler (Okupasi Nasional)",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Cara Pengolahan Produksi Makanan yang Baik (CPPOB)",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Penyusunan Dokumen Sistem HACCP",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Pengelolaan Keamanan Pangan Berbasis HACCP",
+                    "type": "bnsp"
+                }
+            ]
+        },
+        {
+            "id": "sdm",
+            "label": "SDM & Soft Skills",
+            "icon": "groups",
+            "color": "purple",
+            "count": 6,
+            "schemes": [
+                {
+                    "name": "Staf Administrasi Sumber Daya Manusia",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Supervisor Sumber Daya Manusia",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Manajer Sumber Daya Manusia",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Kepala Bagian Sumber Daya Manusia",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Supply Chain Management",
+                    "type": "bnsp"
+                },
+                {
+                    "name": "Training of Trainer (TOT)",
+                    "type": "bnsp"
+                }
+            ]
+        }
+    ]
+}
