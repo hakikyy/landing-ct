@@ -1,41 +1,62 @@
 // service-detail.js
 // Reads ?id= from URL, fetches service data from JSON, renders the detail page.
+
 async function loadServiceDetail() {
     const params = new URLSearchParams(window.location.search);
     const serviceId = params.get('id');
+
     const container = document.getElementById('service-detail-content');
     const skeletonEl = document.getElementById('service-detail-skeleton');
+
     if (!serviceId) {
         renderError(container, skeletonEl, 'No service specified.', true);
         return;
     }
+
     try {
-        const res = await fetch('src/data/services.json');
-        if (!res.ok) throw new Error('Failed to load service data');
-        const { services } = await res.json();
+        // Load index first, then fetch all category files in parallel
+        const indexRes = await fetch('src/data/services/index.json');
+        if (!indexRes.ok) throw new Error('Failed to load service index');
+        const { files } = await indexRes.json();
+
+        const dataFiles = await Promise.all(
+            files.map(f => fetch(`src/data/services/${f}.json`).then(r => r.json()))
+        );
+
+        // Flatten all services from all files into one array
+        const services = dataFiles.flatMap(f => f.services || []);
+
         const service = services.find(s => s.id === serviceId);
+
         if (!service) {
             renderError(container, skeletonEl, `Service "${serviceId}" not found.`, true);
             return;
         }
+
         // Update page <title>
         document.title = `${service.title} | PT Cutting Edge Indonesia`;
+
         // Update breadcrumb
         const breadcrumbName = document.getElementById('breadcrumb-service-name');
         if (breadcrumbName) breadcrumbName.textContent = service.title;
+
         // Hide skeleton, render content
         if (skeletonEl) skeletonEl.remove();
         container.innerHTML = buildDetailHTML(service);
         container.classList.remove('hidden');
+
         // Re-run reveal animations on newly injected content
         initRevealObserver();
+
         // Init brochure modal after content is in DOM
         initBrochureModal(service);
+
     } catch (err) {
         renderError(container, skeletonEl, 'Gagal memuat data. Silakan coba lagi.', false);
         console.error(err);
     }
 }
+
 function renderError(container, skeletonEl, message, showBack) {
     if (skeletonEl) skeletonEl.remove();
     if (!container) return;
@@ -50,8 +71,10 @@ function renderError(container, skeletonEl, message, showBack) {
         </div>
     `;
 }
+
 function buildDetailHTML(s) {
     const hasBrochure = s.brochureUrl && s.brochureUrl !== '#';
+
     // Certification badges config
     const certConfig = {
         bnsp: { label: 'BNSP Certified', emoji: '🏅', classes: 'bg-emerald-50 border-emerald-200 text-emerald-700' },
@@ -63,6 +86,7 @@ function buildDetailHTML(s) {
         const cfg = certConfig[c] || certConfig.internal;
         return `<span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border font-label-md text-sm ${cfg.classes}">${cfg.emoji} ${cfg.label}</span>`;
     }).join('');
+
     const syllabusHTML = s.syllabus.map((module, i) => `
         <div class="reveal-on-scroll bg-white rounded-xl border border-surface-variant hover:border-deep-maroon hover:shadow-md transition-all duration-300 overflow-hidden">
             <button
@@ -89,18 +113,21 @@ function buildDetailHTML(s) {
             </div>
         </div>
     `).join('');
+
     const objectivesHTML = s.objectives.map(o => `
         <li class="flex items-start gap-3">
             <span class="material-symbols-outlined text-deep-maroon mt-0.5 flex-shrink-0">task_alt</span>
             <span class="text-secondary text-body-md">${o}</span>
         </li>
     `).join('');
+
     const includesHTML = s.includes.map(inc => `
         <li class="flex items-start gap-2 text-secondary text-body-md">
             <span class="material-symbols-outlined text-sm mt-1 text-deep-maroon">check</span>
             ${inc}
         </li>
     `).join('');
+
     const brochureBtn = hasBrochure
         ? `<button id="btn-open-brochure"
                 class="w-full flex items-center justify-center gap-2 border border-deep-maroon text-deep-maroon px-6 py-4 rounded-lg font-label-md text-label-md hover:bg-deep-maroon hover:text-white transition-all">
@@ -112,6 +139,7 @@ function buildDetailHTML(s) {
                 <span class="material-symbols-outlined">image</span>
                 Brosur Belum Tersedia
             </button>`;
+
     // Brochure modal — only injected if brochure exists
     const brochureModal = hasBrochure ? `
         <!-- Brochure Modal -->
@@ -155,8 +183,10 @@ function buildDetailHTML(s) {
             </div>
         </div>
     ` : '';
+
     return `
         ${brochureModal}
+
         <!-- Hero -->
         <section class="relative min-h-[50vh] flex items-center justify-center overflow-hidden bg-deep-maroon">
             <div class="absolute inset-0 opacity-10"
@@ -200,26 +230,32 @@ function buildDetailHTML(s) {
                 </div>
             </div>
         </section>
+
         <!-- Main Content -->
         <div class="max-w-container-max mx-auto px-4 sm:px-6 lg:px-margin-desktop py-16 lg:py-section-gap">
             <div class="grid lg:grid-cols-3 gap-10 lg:gap-16 items-start">
+
                 <!-- Left: Main Info -->
                 <div class="lg:col-span-2 space-y-14">
+
                     <!-- Description -->
                     <div class="reveal-on-scroll">
                         <h2 class="font-headline-lg text-headline-lg text-primary mb-5">Tentang Program</h2>
                         <p class="font-body-lg text-body-lg text-secondary leading-relaxed">${s.description}</p>
                     </div>
+
                     <!-- Objectives -->
                     <div class="reveal-on-scroll">
                         <h2 class="font-headline-lg text-headline-lg text-primary mb-6">Tujuan Pelatihan</h2>
                         <ul class="space-y-4">${objectivesHTML}</ul>
                     </div>
+
                     <!-- Syllabus Accordion -->
                     <div class="reveal-on-scroll">
                         <h2 class="font-headline-lg text-headline-lg text-primary mb-6">Silabus &amp; Materi</h2>
                         <div class="space-y-3">${syllabusHTML}</div>
                     </div>
+
                     <!-- Target Participants -->
                     <div class="reveal-on-scroll bg-surface-container-low rounded-2xl p-6 lg:p-8 border border-surface-variant">
                         <div class="flex items-center gap-3 mb-4">
@@ -228,9 +264,12 @@ function buildDetailHTML(s) {
                         </div>
                         <p class="text-secondary text-body-lg">${s.targetParticipants}</p>
                     </div>
+
                 </div>
+
                 <!-- Right: Sticky Sidebar -->
                 <div class="lg:sticky lg:top-28 space-y-6">
+
                     <!-- Inquiry Card -->
                     <div class="reveal-on-scroll bg-white rounded-2xl border border-surface-variant shadow-lg overflow-hidden">
                         <div class="bg-deep-maroon p-6 text-white">
@@ -251,6 +290,7 @@ function buildDetailHTML(s) {
                             ${brochureBtn}
                         </div>
                     </div>
+
                     <!-- Certification Badges -->
                     <div class="reveal-on-scroll bg-white rounded-2xl p-6 border border-surface-variant">
                         <h3 class="font-headline-md text-headline-md text-primary mb-4 flex items-center gap-2">
@@ -259,6 +299,7 @@ function buildDetailHTML(s) {
                         </h3>
                         <div class="flex flex-wrap gap-2">${certBadgesHTML}</div>
                     </div>
+
                     <!-- What's Included -->
                     <div class="reveal-on-scroll bg-surface-container-low rounded-2xl p-6 border border-surface-variant">
                         <h3 class="font-headline-md text-headline-md text-primary mb-5 flex items-center gap-2">
@@ -267,9 +308,11 @@ function buildDetailHTML(s) {
                         </h3>
                         <ul class="space-y-3">${includesHTML}</ul>
                     </div>
+
                 </div>
             </div>
         </div>
+
         <!-- CTA Section -->
         <section class="bg-deep-maroon py-16 lg:py-20 relative overflow-hidden">
             <div class="absolute top-0 right-0 w-96 h-96 bg-white/5 rounded-full -translate-y-1/2 translate-x-1/2 blur-3xl"></div>
@@ -284,44 +327,54 @@ function buildDetailHTML(s) {
         </section>
     `;
 }
+
 // Brochure modal logic
 function initBrochureModal(service) {
     const modal = document.getElementById('brochure-modal');
     const openBtn = document.getElementById('btn-open-brochure');
     const closeBtn = document.getElementById('btn-close-brochure');
     const backdrop = document.getElementById('brochure-backdrop');
+
     if (!modal || !openBtn) return;
+
     function openModal() {
         modal.classList.remove('hidden');
         modal.classList.add('flex');
         document.body.classList.add('overflow-hidden');
     }
+
     function closeModal() {
         modal.classList.add('hidden');
         modal.classList.remove('flex');
         document.body.classList.remove('overflow-hidden');
     }
+
     openBtn.addEventListener('click', openModal);
     closeBtn && closeBtn.addEventListener('click', closeModal);
     backdrop && backdrop.addEventListener('click', closeModal);
+
     // Close on Escape key
     document.addEventListener('keydown', e => {
         if (e.key === 'Escape') closeModal();
     });
 }
+
 // Accordion interaction
 function initAccordions() {
     document.addEventListener('click', e => {
         const toggle = e.target.closest('.accordion-toggle');
         if (!toggle) return;
+
         const body = toggle.nextElementSibling;
         const icon = toggle.querySelector('.accordion-icon');
         const isOpen = !body.classList.contains('hidden');
+
         body.classList.toggle('hidden', isOpen);
         icon.style.transform = isOpen ? 'rotate(0deg)' : 'rotate(180deg)';
         toggle.setAttribute('aria-expanded', String(!isOpen));
     });
 }
+
 // Reusable reveal observer (same logic as index.js)
 function initRevealObserver() {
     const observer = new IntersectionObserver((entries, obs) => {
@@ -332,8 +385,10 @@ function initRevealObserver() {
             }
         });
     }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
     document.querySelectorAll('.reveal-on-scroll').forEach(el => observer.observe(el));
 }
+
 document.addEventListener('DOMContentLoaded', () => {
     loadServiceDetail();
     initAccordions();

@@ -1,0 +1,9 @@
+{
+  "_comment": "Daftar file data pelatihan. Tambah nama file baru di sini untuk mendaftarkan kategori baru.",
+  "files": [
+    "iso-series",
+    "bnsp",
+    "kemnaker",
+    "internal"
+  ]
+}

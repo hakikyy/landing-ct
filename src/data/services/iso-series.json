@@ -1,0 +1,85 @@
+{
+  "_meta": {
+    "category": "ISO Management Systems",
+    "description": "Pelatihan standar ISO internasional — ISO 9001, 14001, 45001, 22000, dll.",
+    "certifications": ["internal"]
+  },
+  "services": [
+    {
+      "id": "iso-45001",
+      "category": "k3",
+      "categoryLabel": "K3 / Occupational Health & Safety",
+      "badge": "ISO International",
+      "certifications": ["internal"],
+      "title": "ISO 45001:2018",
+      "subtitle": "Occupational Health & Safety Management Systems",
+      "icon": "shield_health",
+      "duration": "2 Hari",
+      "method": "In-Class / Online",
+      "certificate": "Sertifikat Pelatihan",
+      "level": "Intermediate – Advanced",
+      "description": "Pelatihan implementasi dan audit internal ISO 45001:2018, standar internasional untuk Sistem Manajemen Keselamatan dan Kesehatan Kerja (SMK3). Program ini membekali peserta dengan pemahaman komprehensif untuk menerapkan, memelihara, dan mengaudit sistem manajemen K3 berstandar internasional.",
+      "objectives": [
+        "Memahami struktur dan persyaratan ISO 45001:2018",
+        "Mampu melakukan gap analysis terhadap sistem K3 yang ada",
+        "Mampu menyusun dokumen sistem manajemen K3",
+        "Mampu melaksanakan audit internal ISO 45001",
+        "Siap mendampingi proses sertifikasi ISO 45001 di perusahaan"
+      ],
+      "syllabus": [
+        { "title": "Pengantar ISO 45001", "topics": ["Latar belakang & sejarah", "Perbandingan dengan OHSAS 18001", "Struktur High Level Structure (HLS)"] },
+        { "title": "Klausul 4–6: Konteks & Perencanaan", "topics": ["Analisis konteks organisasi", "Kebutuhan pihak berkepentingan", "Identifikasi bahaya & penilaian risiko"] },
+        { "title": "Klausul 7–8: Dukungan & Operasi", "topics": ["Kompetensi & kesadaran", "Komunikasi & dokumentasi", "Pengendalian operasional"] },
+        { "title": "Klausul 9–10: Evaluasi & Perbaikan", "topics": ["Pemantauan & pengukuran kinerja", "Audit internal", "Tinjauan manajemen & tindakan perbaikan"] }
+      ],
+      "includes": [
+        "Modul ISO 45001:2018 (soft & hard copy)",
+        "Template dokumen sistem manajemen",
+        "Checklist audit internal",
+        "Sertifikat pelatihan",
+        "Konsultasi implementasi 1 bulan"
+      ],
+      "targetParticipants": "Manajer K3, Internal Auditor, Management Representative, dan tim implementasi ISO di perusahaan.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "iso-9001",
+      "category": "iso",
+      "categoryLabel": "ISO Management Systems",
+      "badge": "ISO International",
+      "certifications": ["internal"],
+      "title": "ISO 9001:2015",
+      "subtitle": "Quality Management Systems",
+      "icon": "verified",
+      "duration": "2 Hari",
+      "method": "In-Class / Online / In-House",
+      "certificate": "Sertifikat Pelatihan",
+      "level": "Semua Level",
+      "description": "Pelatihan pemahaman dan implementasi ISO 9001:2015 sebagai standar internasional untuk Sistem Manajemen Mutu (SMM). Program ini memberikan fondasi yang kuat untuk membangun, menerapkan, dan meningkatkan sistem manajemen mutu yang efektif di organisasi Anda.",
+      "objectives": [
+        "Memahami konsep dan prinsip manajemen mutu ISO 9001:2015",
+        "Mampu mengidentifikasi gap antara sistem yang berjalan dan persyaratan ISO 9001",
+        "Mampu menyusun dokumentasi sistem manajemen mutu",
+        "Mampu melaksanakan audit internal ISO 9001",
+        "Mempersiapkan organisasi menuju sertifikasi ISO 9001"
+      ],
+      "syllabus": [
+        { "title": "Pengantar Manajemen Mutu", "topics": ["7 prinsip manajemen mutu", "Pendekatan proses & risiko", "High Level Structure (HLS)"] },
+        { "title": "Klausul 4–6: Konteks & Perencanaan", "topics": ["Konteks organisasi", "Kepemimpinan & kebijakan mutu", "Perencanaan & tindakan terhadap risiko"] },
+        { "title": "Klausul 7–8: Dukungan & Operasi", "topics": ["Sumber daya & kompetensi", "Komunikasi & dokumentasi", "Perencanaan & pengendalian operasional"] },
+        { "title": "Klausul 9–10: Evaluasi & Perbaikan", "topics": ["Kepuasan pelanggan", "Audit internal & tinjauan manajemen", "Ketidaksesuaian & tindakan korektif"] }
+      ],
+      "includes": [
+        "Modul ISO 9001:2015",
+        "Template dokumen & prosedur",
+        "Checklist audit internal",
+        "Sertifikat pelatihan",
+        "Konsultasi implementasi 1 bulan"
+      ],
+      "targetParticipants": "Manajemen, Management Representative, Internal Auditor, dan tim implementasi mutu di semua jenis organisasi.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    }
+  ]
+}

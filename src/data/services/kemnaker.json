@@ -1,0 +1,88 @@
+{
+  "_meta": {
+    "category": "Pembinaan K3 / PJK3 Kemnaker",
+    "description": "Pembinaan dan sertifikasi resmi Kementerian Ketenagakerjaan RI untuk operator dan ahli K3.",
+    "certifications": [
+      "kemnaker"
+    ]
+  },
+  "services": [
+    {
+      "id": "ahli-k3-umum",
+      "category": "k3",
+      "categoryLabel": "K3 / Occupational Health & Safety",
+      "badge": "Kemnaker Certified",
+      "certifications": [
+        "kemnaker"
+      ],
+      "title": "Ahli K3 Umum",
+      "subtitle": "Sertifikasi Resmi Kementerian Ketenagakerjaan RI",
+      "icon": "verified_user",
+      "duration": "12 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "SKP Kemnaker RI",
+      "level": "Semua Level",
+      "description": "Program Pembinaan Ahli K3 Umum adalah program resmi yang diselenggarakan berdasarkan Permenaker No. PER.02/MEN/1992. Peserta yang lulus akan mendapatkan Surat Keputusan Penunjukan (SKP) dari Kementerian Ketenagakerjaan RI sebagai bukti kompetensi K3 yang diakui secara nasional.",
+      "objectives": [
+        "Memahami peraturan perundangan K3 yang berlaku di Indonesia",
+        "Mampu mengidentifikasi, menilai, dan mengendalikan risiko di tempat kerja",
+        "Mampu melakukan pembinaan dan pengawasan K3 kepada tenaga kerja",
+        "Mampu menyusun program K3 dan laporan bulanan/tahunan",
+        "Mendapatkan SKP Ahli K3 Umum dari Kemnaker RI"
+      ],
+      "syllabus": [
+        {
+          "title": "Kebijakan K3 Nasional",
+          "topics": [
+            "UU No. 1 Tahun 1970",
+            "Peraturan K3 terkini",
+            "Kewajiban pengusaha & tenaga kerja"
+          ]
+        },
+        {
+          "title": "Identifikasi & Penilaian Risiko",
+          "topics": [
+            "Hazard Identification Risk Assessment (HIRA)",
+            "Job Safety Analysis (JSA)",
+            "Metode penilaian risiko"
+          ]
+        },
+        {
+          "title": "Program K3 di Tempat Kerja",
+          "topics": [
+            "Penyusunan program K3",
+            "Safety induction & briefing",
+            "Inspeksi K3 rutin"
+          ]
+        },
+        {
+          "title": "Keselamatan Kebakaran & Darurat",
+          "topics": [
+            "Sistem proteksi kebakaran",
+            "Prosedur tanggap darurat",
+            "Latihan evakuasi"
+          ]
+        },
+        {
+          "title": "Praktik & Ujian Akhir",
+          "topics": [
+            "Kunjungan lapangan",
+            "Simulasi kasus K3",
+            "Ujian tulis & presentasi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan lengkap",
+        "Brosur & materi pendukung",
+        "Sertifikat pelatihan",
+        "Pengurusan SKP Kemnaker RI",
+        "Konsumsi selama pelatihan",
+        "Akses konsultasi post-training"
+      ],
+      "targetParticipants": "Manajer, Supervisor, Staf K3, HRD, dan siapapun yang bertanggung jawab atas K3 di perusahaan.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    }
+  ]
+}

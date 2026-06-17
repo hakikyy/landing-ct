@@ -1,0 +1,85 @@
+{
+  "_meta": {
+    "category": "Pelatihan Internal / Non-Sertifikasi",
+    "description": "Pelatihan dengan sertifikat resmi PT Cutting Edge Indonesia, tanpa uji kompetensi BNSP/Kemnaker.",
+    "certifications": ["internal"]
+  },
+  "services": [
+    {
+      "id": "smk3",
+      "category": "k3",
+      "categoryLabel": "K3 / Occupational Health & Safety",
+      "badge": "PP No. 50/2012",
+      "certifications": ["internal"],
+      "title": "SMK3",
+      "subtitle": "Sistem Manajemen Keselamatan dan Kesehatan Kerja",
+      "icon": "fact_check",
+      "duration": "2 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat Pelatihan",
+      "level": "Semua Level",
+      "description": "Pelatihan Sistem Manajemen K3 (SMK3) berdasarkan PP No. 50 Tahun 2012 wajib diterapkan oleh perusahaan dengan tenaga kerja ≥100 orang atau yang berpotensi bahaya tinggi. Program ini membantu perusahaan memahami dan mengimplementasikan 5 elemen dan 166 kriteria SMK3.",
+      "objectives": [
+        "Memahami persyaratan PP No. 50 Tahun 2012 tentang SMK3",
+        "Mampu melakukan self-assessment 5 elemen SMK3",
+        "Mampu menyusun dokumen dan prosedur SMK3",
+        "Siap menghadapi audit SMK3 oleh pihak eksternal",
+        "Membangun budaya K3 di lingkungan kerja"
+      ],
+      "syllabus": [
+        { "title": "Regulasi SMK3 Indonesia", "topics": ["PP No. 50 Tahun 2012", "Kewajiban penerapan SMK3", "Penghargaan K3 (Zero Accident)"] },
+        { "title": "5 Elemen SMK3", "topics": ["Kebijakan K3", "Perencanaan K3", "Pelaksanaan K3"] },
+        { "title": "Audit & Sertifikasi SMK3", "topics": ["166 kriteria audit SMK3", "Tingkat penilaian (memuaskan/baik/kurang)", "Persiapan audit eksternal"] },
+        { "title": "Implementasi Praktis", "topics": ["Penyusunan dokumen SMK3", "Pembentukan P2K3", "Program K3 tahunan"] }
+      ],
+      "includes": [
+        "Modul SMK3 lengkap",
+        "Checklist 166 kriteria audit",
+        "Template dokumen & prosedur SMK3",
+        "Sertifikat pelatihan",
+        "Konsultasi pendampingan audit"
+      ],
+      "targetParticipants": "Manajemen, P2K3, Staf K3, HRD perusahaan dengan ≥100 tenaga kerja atau kategori risiko tinggi.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "haccp",
+      "category": "food",
+      "categoryLabel": "Food Safety & Halal",
+      "badge": "Food Safety",
+      "certifications": ["internal"],
+      "title": "HACCP",
+      "subtitle": "Hazard Analysis and Critical Control Points",
+      "icon": "restaurant_menu",
+      "duration": "2 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat Pelatihan",
+      "level": "Intermediate",
+      "description": "Pelatihan HACCP (Hazard Analysis and Critical Control Points) memberikan pemahaman mendalam tentang sistem keamanan pangan berbasis risiko yang diakui secara internasional. Peserta akan mampu mengidentifikasi, mengevaluasi, dan mengendalikan bahaya keamanan pangan dalam proses produksi.",
+      "objectives": [
+        "Memahami 7 prinsip HACCP dan 12 langkah penerapannya",
+        "Mampu melakukan analisis bahaya biologis, kimia, dan fisik",
+        "Mampu menetapkan Critical Control Points (CCP) dan batas kritis",
+        "Mampu menyusun dokumen HACCP Plan yang lengkap",
+        "Siap mengimplementasikan HACCP di lini produksi"
+      ],
+      "syllabus": [
+        { "title": "Dasar Keamanan Pangan", "topics": ["Regulasi keamanan pangan nasional & internasional", "Jenis-jenis bahaya pangan", "Good Manufacturing Practices (GMP)"] },
+        { "title": "7 Prinsip & 12 Langkah HACCP", "topics": ["Pembentukan tim HACCP", "Deskripsi produk & diagram alir", "Analisis bahaya & penentuan CCP"] },
+        { "title": "Pengendalian & Monitoring", "topics": ["Penetapan batas kritis", "Sistem monitoring CCP", "Prosedur tindakan koreksi"] },
+        { "title": "Dokumentasi & Verifikasi", "topics": ["Penyusunan HACCP Plan", "Prosedur verifikasi", "Rekaman & dokumen pendukung"] }
+      ],
+      "includes": [
+        "Modul HACCP lengkap",
+        "Template HACCP Plan",
+        "Checklist GMP & SSOP",
+        "Sertifikat pelatihan",
+        "Studi kasus industri pangan"
+      ],
+      "targetParticipants": "QA/QC, Produksi, R&D, dan manajemen di industri makanan, minuman, jasa boga, dan distribusi pangan.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    }
+  ]
+}
