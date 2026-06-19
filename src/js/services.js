@@ -3,7 +3,7 @@
 (async () => {
     try {
         // 1. Load konfigurasi page & master index
-        const configRes = await fetch('src/data/services-page-config.json');
+        // const configRes = await fetch('src/data/services-page-config.json');
         const config = await configRes.json();
 
         const indexRes = await fetch('src/data/services/index.json');
