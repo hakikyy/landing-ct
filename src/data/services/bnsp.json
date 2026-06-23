@@ -2,15 +2,4090 @@
   "_meta": {
     "category": "Sertifikasi BNSP",
     "description": "Program pelatihan dengan uji kompetensi dan sertifikat resmi BNSP.",
-    "certifications": ["bnsp"]
+    "certifications": [
+      "bnsp"
+    ]
   },
   "services": [
+    {
+      "id": "bnsp-smk3-sistem-manajemen-kesehatan-keselamatan-kerja",
+      "category": "k3",
+      "categoryLabel": "K3 & Keselamatan Kerja",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "SMK3 Sistem Manajemen Kesehatan Keselamatan Kerja",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan SMK3 Sistem Manajemen Kesehatan Keselamatan Kerja dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi SMK3 Sistem Manajemen Kesehatan Keselamatan Kerja",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan SMK3 Sistem Manajemen Kesehatan Keselamatan Kerja",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi SMK3 Sistem Manajemen Kesehatan Keselamatan Kerja.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-iso-45001-2018-occupational-health-and-safety",
+      "category": "k3",
+      "categoryLabel": "K3 & Keselamatan Kerja",
+      "badge": "Training Certificate",
+      "certifications": [
+        "internal"
+      ],
+      "title": "ISO 45001 : 2018 Occupational Health and Safety",
+      "subtitle": "Sertifikasi Training Certificate",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat Training Certificate",
+      "level": "Profesional",
+      "description": "Program pelatihan ISO 45001 : 2018 Occupational Health and Safety dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi ISO 45001 : 2018 Occupational Health and Safety",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi Training Certificate",
+        "Mendapatkan sertifikat Training Certificate"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan ISO 45001 : 2018 Occupational Health and Safety",
+        "Biaya uji kompetensi",
+        "Sertifikat Training Certificate (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi ISO 45001 : 2018 Occupational Health and Safety.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-csms-contractor-safety-management-system",
+      "category": "k3",
+      "categoryLabel": "K3 & Keselamatan Kerja",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "CSMS (Contractor Safety Management System)",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan CSMS (Contractor Safety Management System) dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi CSMS (Contractor Safety Management System)",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan CSMS (Contractor Safety Management System)",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi CSMS (Contractor Safety Management System).",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-ahli-k3-umum-sertifikasi-bnsp",
+      "category": "k3",
+      "categoryLabel": "K3 & Keselamatan Kerja",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Ahli K3 Umum Sertifikasi BNSP",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Ahli K3 Umum Sertifikasi BNSP dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Ahli K3 Umum Sertifikasi BNSP",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Ahli K3 Umum Sertifikasi BNSP",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Ahli K3 Umum Sertifikasi BNSP.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-pengawas-k3-industri-migas",
+      "category": "k3",
+      "categoryLabel": "K3 & Keselamatan Kerja",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Pengawas K3 Industri Migas",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Pengawas K3 Industri Migas dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Pengawas K3 Industri Migas",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Pengawas K3 Industri Migas",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Pengawas K3 Industri Migas.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-auditor-smk3-sertifikasi-bnsp",
+      "category": "k3",
+      "categoryLabel": "K3 & Keselamatan Kerja",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Auditor SMK3 Sertifikasi BNSP",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Auditor SMK3 Sertifikasi BNSP dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Auditor SMK3 Sertifikasi BNSP",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Auditor SMK3 Sertifikasi BNSP",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Auditor SMK3 Sertifikasi BNSP.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-authorized-gas-tester",
+      "category": "k3",
+      "categoryLabel": "K3 & Keselamatan Kerja",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Authorized Gas Tester",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Authorized Gas Tester dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Authorized Gas Tester",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Authorized Gas Tester",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Authorized Gas Tester.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-penanganan-bahaya-gas-h2s",
+      "category": "k3",
+      "categoryLabel": "K3 & Keselamatan Kerja",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Penanganan Bahaya Gas H2S",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Penanganan Bahaya Gas H2S dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Penanganan Bahaya Gas H2S",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Penanganan Bahaya Gas H2S",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Penanganan Bahaya Gas H2S.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-operator-k3",
+      "category": "k3",
+      "categoryLabel": "K3 & Keselamatan Kerja",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Operator K3",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Operator K3 dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Operator K3",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Operator K3",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Operator K3.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-petugas-k3",
+      "category": "k3",
+      "categoryLabel": "K3 & Keselamatan Kerja",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Petugas K3",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Petugas K3 dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Petugas K3",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Petugas K3",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Petugas K3.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-pengawas-k3-rs-dan-fasyankes",
+      "category": "k3",
+      "categoryLabel": "K3 & Keselamatan Kerja",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Pengawas K3 RS dan Fasyankes",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Pengawas K3 RS dan Fasyankes dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Pengawas K3 RS dan Fasyankes",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Pengawas K3 RS dan Fasyankes",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Pengawas K3 RS dan Fasyankes.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-pengawas-k3-laboratorium",
+      "category": "k3",
+      "categoryLabel": "K3 & Keselamatan Kerja",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Pengawas K3 Laboratorium",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Pengawas K3 Laboratorium dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Pengawas K3 Laboratorium",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Pengawas K3 Laboratorium",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Pengawas K3 Laboratorium.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-hazard-and-operability-studies-hazops",
+      "category": "k3",
+      "categoryLabel": "K3 & Keselamatan Kerja",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Hazard and Operability Studies (HAZOPS)",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Hazard and Operability Studies (HAZOPS) dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Hazard and Operability Studies (HAZOPS)",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Hazard and Operability Studies (HAZOPS)",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Hazard and Operability Studies (HAZOPS).",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-pertolongan-pertama-pada-kecelakaan-p3k",
+      "category": "k3",
+      "categoryLabel": "K3 & Keselamatan Kerja",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Pertolongan Pertama Pada Kecelakaan (P3K)",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Pertolongan Pertama Pada Kecelakaan (P3K) dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Pertolongan Pertama Pada Kecelakaan (P3K)",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Pertolongan Pertama Pada Kecelakaan (P3K)",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Pertolongan Pertama Pada Kecelakaan (P3K).",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-paramedis-k3-muda",
+      "category": "k3",
+      "categoryLabel": "K3 & Keselamatan Kerja",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Paramedis K3 Muda",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Paramedis K3 Muda dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Paramedis K3 Muda",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Paramedis K3 Muda",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Paramedis K3 Muda.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-paramedis-k3-madya",
+      "category": "k3",
+      "categoryLabel": "K3 & Keselamatan Kerja",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Paramedis K3 Madya",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Paramedis K3 Madya dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Paramedis K3 Madya",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Paramedis K3 Madya",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Paramedis K3 Madya.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-paramedis-k3-utama",
+      "category": "k3",
+      "categoryLabel": "K3 & Keselamatan Kerja",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Paramedis K3 Utama",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Paramedis K3 Utama dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Paramedis K3 Utama",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Paramedis K3 Utama",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Paramedis K3 Utama.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-pengkaji-teknis-proteksi-kebakaran",
+      "category": "k3",
+      "categoryLabel": "K3 & Keselamatan Kerja",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Pengkaji Teknis Proteksi Kebakaran",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Pengkaji Teknis Proteksi Kebakaran dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Pengkaji Teknis Proteksi Kebakaran",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Pengkaji Teknis Proteksi Kebakaran",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Pengkaji Teknis Proteksi Kebakaran.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-ahli-higiene-industri-muda",
+      "category": "k3",
+      "categoryLabel": "K3 & Keselamatan Kerja",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Ahli Higiene Industri Muda",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Ahli Higiene Industri Muda dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Ahli Higiene Industri Muda",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Ahli Higiene Industri Muda",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Ahli Higiene Industri Muda.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-ahli-higiene-industri-madya",
+      "category": "k3",
+      "categoryLabel": "K3 & Keselamatan Kerja",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Ahli Higiene Industri Madya",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Ahli Higiene Industri Madya dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Ahli Higiene Industri Madya",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Ahli Higiene Industri Madya",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Ahli Higiene Industri Madya.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-ahli-higiene-industri-utama",
+      "category": "k3",
+      "categoryLabel": "K3 & Keselamatan Kerja",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Ahli Higiene Industri Utama",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Ahli Higiene Industri Utama dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Ahli Higiene Industri Utama",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Ahli Higiene Industri Utama",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Ahli Higiene Industri Utama.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-teknisi-ruang-terbatas",
+      "category": "k3",
+      "categoryLabel": "K3 & Keselamatan Kerja",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Teknisi Ruang Terbatas",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Teknisi Ruang Terbatas dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Teknisi Ruang Terbatas",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Teknisi Ruang Terbatas",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Teknisi Ruang Terbatas.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-ahli-muda-ruang-terbatas",
+      "category": "k3",
+      "categoryLabel": "K3 & Keselamatan Kerja",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Ahli Muda Ruang Terbatas",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Ahli Muda Ruang Terbatas dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Ahli Muda Ruang Terbatas",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Ahli Muda Ruang Terbatas",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Ahli Muda Ruang Terbatas.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-ahli-madya-ruang-terbatas",
+      "category": "k3",
+      "categoryLabel": "K3 & Keselamatan Kerja",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Ahli Madya Ruang Terbatas",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Ahli Madya Ruang Terbatas dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Ahli Madya Ruang Terbatas",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Ahli Madya Ruang Terbatas",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Ahli Madya Ruang Terbatas.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-ahli-utama-ruang-terbatas",
+      "category": "k3",
+      "categoryLabel": "K3 & Keselamatan Kerja",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Ahli Utama Ruang Terbatas",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Ahli Utama Ruang Terbatas dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Ahli Utama Ruang Terbatas",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Ahli Utama Ruang Terbatas",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Ahli Utama Ruang Terbatas.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-teknisi-k3-listrik",
+      "category": "k3",
+      "categoryLabel": "K3 & Keselamatan Kerja",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Teknisi K3 Listrik",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Teknisi K3 Listrik dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Teknisi K3 Listrik",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Teknisi K3 Listrik",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Teknisi K3 Listrik.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-ahli-k3-listrik",
+      "category": "k3",
+      "categoryLabel": "K3 & Keselamatan Kerja",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Ahli K3 Listrik",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Ahli K3 Listrik dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Ahli K3 Listrik",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Ahli K3 Listrik",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Ahli K3 Listrik.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-operator-boiler-kelas-ii",
+      "category": "pjk3",
+      "categoryLabel": "Pembinaan K3",
+      "badge": "Kemnaker Certified",
+      "certifications": [
+        "kemnaker"
+      ],
+      "title": "Operator Boiler Kelas II",
+      "subtitle": "Sertifikasi Kemnaker Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class",
+      "certificate": "Sertifikat Kemnaker Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Operator Boiler Kelas II dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Operator Boiler Kelas II",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi Kemnaker Certified",
+        "Mendapatkan sertifikat Kemnaker Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Operator Boiler Kelas II",
+        "Biaya uji kompetensi",
+        "Sertifikat Kemnaker Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Operator Boiler Kelas II.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-tkpk-i-teknisi-k3-ketinggian",
+      "category": "pjk3",
+      "categoryLabel": "Pembinaan K3",
+      "badge": "Kemnaker Certified",
+      "certifications": [
+        "kemnaker"
+      ],
+      "title": "TKPK I (Teknisi K3 Ketinggian)",
+      "subtitle": "Sertifikasi Kemnaker Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class",
+      "certificate": "Sertifikat Kemnaker Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan TKPK I (Teknisi K3 Ketinggian) dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi TKPK I (Teknisi K3 Ketinggian)",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi Kemnaker Certified",
+        "Mendapatkan sertifikat Kemnaker Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan TKPK I (Teknisi K3 Ketinggian)",
+        "Biaya uji kompetensi",
+        "Sertifikat Kemnaker Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi TKPK I (Teknisi K3 Ketinggian).",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-ak3-umum",
+      "category": "pjk3",
+      "categoryLabel": "Pembinaan K3",
+      "badge": "Kemnaker Certified",
+      "certifications": [
+        "kemnaker"
+      ],
+      "title": "AK3 Umum",
+      "subtitle": "Sertifikasi Kemnaker Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class",
+      "certificate": "Sertifikat Kemnaker Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan AK3 Umum dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi AK3 Umum",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi Kemnaker Certified",
+        "Mendapatkan sertifikat Kemnaker Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan AK3 Umum",
+        "Biaya uji kompetensi",
+        "Sertifikat Kemnaker Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi AK3 Umum.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-operator-forklift-kelas-ii",
+      "category": "pjk3",
+      "categoryLabel": "Pembinaan K3",
+      "badge": "Kemnaker Certified",
+      "certifications": [
+        "kemnaker"
+      ],
+      "title": "Operator Forklift Kelas II",
+      "subtitle": "Sertifikasi Kemnaker Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class",
+      "certificate": "Sertifikat Kemnaker Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Operator Forklift Kelas II dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Operator Forklift Kelas II",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi Kemnaker Certified",
+        "Mendapatkan sertifikat Kemnaker Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Operator Forklift Kelas II",
+        "Biaya uji kompetensi",
+        "Sertifikat Kemnaker Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Operator Forklift Kelas II.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-operator-bejana-tekan-tangki-timbun",
+      "category": "pjk3",
+      "categoryLabel": "Pembinaan K3",
+      "badge": "Kemnaker Certified",
+      "certifications": [
+        "kemnaker"
+      ],
+      "title": "Operator Bejana Tekan & Tangki Timbun",
+      "subtitle": "Sertifikasi Kemnaker Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class",
+      "certificate": "Sertifikat Kemnaker Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Operator Bejana Tekan & Tangki Timbun dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Operator Bejana Tekan & Tangki Timbun",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi Kemnaker Certified",
+        "Mendapatkan sertifikat Kemnaker Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Operator Bejana Tekan & Tangki Timbun",
+        "Biaya uji kompetensi",
+        "Sertifikat Kemnaker Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Operator Bejana Tekan & Tangki Timbun.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-operator-cargo-hoist-crane-iii",
+      "category": "pjk3",
+      "categoryLabel": "Pembinaan K3",
+      "badge": "Kemnaker Certified",
+      "certifications": [
+        "kemnaker"
+      ],
+      "title": "Operator Cargo Hoist Crane III",
+      "subtitle": "Sertifikasi Kemnaker Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class",
+      "certificate": "Sertifikat Kemnaker Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Operator Cargo Hoist Crane III dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Operator Cargo Hoist Crane III",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi Kemnaker Certified",
+        "Mendapatkan sertifikat Kemnaker Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Operator Cargo Hoist Crane III",
+        "Biaya uji kompetensi",
+        "Sertifikat Kemnaker Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Operator Cargo Hoist Crane III.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-petugas-peran-kebakaran-kelas-d",
+      "category": "pjk3",
+      "categoryLabel": "Pembinaan K3",
+      "badge": "Kemnaker Certified",
+      "certifications": [
+        "kemnaker"
+      ],
+      "title": "Petugas Peran Kebakaran Kelas D",
+      "subtitle": "Sertifikasi Kemnaker Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class",
+      "certificate": "Sertifikat Kemnaker Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Petugas Peran Kebakaran Kelas D dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Petugas Peran Kebakaran Kelas D",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi Kemnaker Certified",
+        "Mendapatkan sertifikat Kemnaker Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Petugas Peran Kebakaran Kelas D",
+        "Biaya uji kompetensi",
+        "Sertifikat Kemnaker Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Petugas Peran Kebakaran Kelas D.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-juru-ikat-rigger",
+      "category": "pjk3",
+      "categoryLabel": "Pembinaan K3",
+      "badge": "Kemnaker Certified",
+      "certifications": [
+        "kemnaker"
+      ],
+      "title": "Juru Ikat (Rigger)",
+      "subtitle": "Sertifikasi Kemnaker Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class",
+      "certificate": "Sertifikat Kemnaker Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Juru Ikat (Rigger) dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Juru Ikat (Rigger)",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi Kemnaker Certified",
+        "Mendapatkan sertifikat Kemnaker Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Juru Ikat (Rigger)",
+        "Biaya uji kompetensi",
+        "Sertifikat Kemnaker Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Juru Ikat (Rigger).",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-p3k",
+      "category": "pjk3",
+      "categoryLabel": "Pembinaan K3",
+      "badge": "Kemnaker Certified",
+      "certifications": [
+        "kemnaker"
+      ],
+      "title": "P3K",
+      "subtitle": "Sertifikasi Kemnaker Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class",
+      "certificate": "Sertifikat Kemnaker Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan P3K dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi P3K",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi Kemnaker Certified",
+        "Mendapatkan sertifikat Kemnaker Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan P3K",
+        "Biaya uji kompetensi",
+        "Sertifikat Kemnaker Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi P3K.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-petugas-peran-kebakaran-kelas-c",
+      "category": "pjk3",
+      "categoryLabel": "Pembinaan K3",
+      "badge": "Kemnaker Certified",
+      "certifications": [
+        "kemnaker"
+      ],
+      "title": "Petugas Peran Kebakaran Kelas C",
+      "subtitle": "Sertifikasi Kemnaker Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class",
+      "certificate": "Sertifikat Kemnaker Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Petugas Peran Kebakaran Kelas C dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Petugas Peran Kebakaran Kelas C",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi Kemnaker Certified",
+        "Mendapatkan sertifikat Kemnaker Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Petugas Peran Kebakaran Kelas C",
+        "Biaya uji kompetensi",
+        "Sertifikat Kemnaker Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Petugas Peran Kebakaran Kelas C.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-petugas-peran-kebakaran-kelas-b",
+      "category": "pjk3",
+      "categoryLabel": "Pembinaan K3",
+      "badge": "Kemnaker Certified",
+      "certifications": [
+        "kemnaker"
+      ],
+      "title": "Petugas Peran Kebakaran Kelas B",
+      "subtitle": "Sertifikasi Kemnaker Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class",
+      "certificate": "Sertifikat Kemnaker Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Petugas Peran Kebakaran Kelas B dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Petugas Peran Kebakaran Kelas B",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi Kemnaker Certified",
+        "Mendapatkan sertifikat Kemnaker Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Petugas Peran Kebakaran Kelas B",
+        "Biaya uji kompetensi",
+        "Sertifikat Kemnaker Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Petugas Peran Kebakaran Kelas B.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-penanggung-jawab-operasional-instalasi-pengendalia",
+      "category": "environmental",
+      "categoryLabel": "Lingkungan Hidup",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Penanggung Jawab Operasional Instalasi Pengendalian Pencemaran Udara (POIPPU)",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Penanggung Jawab Operasional Instalasi Pengendalian Pencemaran Udara (POIPPU) dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Penanggung Jawab Operasional Instalasi Pengendalian Pencemaran Udara (POIPPU)",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Penanggung Jawab Operasional Instalasi Pengendalian Pencemaran Udara (POIPPU)",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Penanggung Jawab Operasional Instalasi Pengendalian Pencemaran Udara (POIPPU).",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-manajemen-pengelolaan-sampah-limbah-padat-non-b3-m",
+      "category": "environmental",
+      "categoryLabel": "Lingkungan Hidup",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Manajemen Pengelolaan Sampah / Limbah Padat Non B3 (MPS/PPLNB3)",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Manajemen Pengelolaan Sampah / Limbah Padat Non B3 (MPS/PPLNB3) dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Manajemen Pengelolaan Sampah / Limbah Padat Non B3 (MPS/PPLNB3)",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Manajemen Pengelolaan Sampah / Limbah Padat Non B3 (MPS/PPLNB3)",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Manajemen Pengelolaan Sampah / Limbah Padat Non B3 (MPS/PPLNB3).",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-operasional-pengolahan-sampah-limbah-padat-non-b3-",
+      "category": "environmental",
+      "categoryLabel": "Lingkungan Hidup",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Operasional Pengolahan Sampah / Limbah Padat Non B3 (OPS/OPLNB3)",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Operasional Pengolahan Sampah / Limbah Padat Non B3 (OPS/OPLNB3) dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Operasional Pengolahan Sampah / Limbah Padat Non B3 (OPS/OPLNB3)",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Operasional Pengolahan Sampah / Limbah Padat Non B3 (OPS/OPLNB3)",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Operasional Pengolahan Sampah / Limbah Padat Non B3 (OPS/OPLNB3).",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-pengelolaan-penyimpanan-limbah-b3-pplb3",
+      "category": "environmental",
+      "categoryLabel": "Lingkungan Hidup",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Pengelolaan Penyimpanan Limbah B3 (PPLB3)",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Pengelolaan Penyimpanan Limbah B3 (PPLB3) dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Pengelolaan Penyimpanan Limbah B3 (PPLB3)",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Pengelolaan Penyimpanan Limbah B3 (PPLB3)",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Pengelolaan Penyimpanan Limbah B3 (PPLB3).",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-penanganan-limbah-b3-opl-b3",
+      "category": "environmental",
+      "categoryLabel": "Lingkungan Hidup",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Penanganan Limbah B3 (OPL B3)",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Penanganan Limbah B3 (OPL B3) dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Penanganan Limbah B3 (OPL B3)",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Penanganan Limbah B3 (OPL B3)",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Penanganan Limbah B3 (OPL B3).",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-penanganan-limbah-b3-opl-b3-non-bnsp",
+      "category": "environmental",
+      "categoryLabel": "Lingkungan Hidup",
+      "badge": "Training Certificate",
+      "certifications": [
+        "internal"
+      ],
+      "title": "Penanganan Limbah B3 (OPL B3) Non BNSP",
+      "subtitle": "Sertifikasi Training Certificate",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat Training Certificate",
+      "level": "Profesional",
+      "description": "Program pelatihan Penanganan Limbah B3 (OPL B3) Non BNSP dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Penanganan Limbah B3 (OPL B3) Non BNSP",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi Training Certificate",
+        "Mendapatkan sertifikat Training Certificate"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Penanganan Limbah B3 (OPL B3) Non BNSP",
+        "Biaya uji kompetensi",
+        "Sertifikat Training Certificate (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Penanganan Limbah B3 (OPL B3) Non BNSP.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-penanggung-jawab-operasional-pengolahan-air-limbah",
+      "category": "environmental",
+      "categoryLabel": "Lingkungan Hidup",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Penanggung Jawab Operasional Pengolahan Air Limbah (POPAL)",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Penanggung Jawab Operasional Pengolahan Air Limbah (POPAL) dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Penanggung Jawab Operasional Pengolahan Air Limbah (POPAL)",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Penanggung Jawab Operasional Pengolahan Air Limbah (POPAL)",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Penanggung Jawab Operasional Pengolahan Air Limbah (POPAL).",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-penanggung-jawab-operasional-pengolahan-air-limbah",
+      "category": "environmental",
+      "categoryLabel": "Lingkungan Hidup",
+      "badge": "Training Certificate",
+      "certifications": [
+        "internal"
+      ],
+      "title": "Penanggung Jawab Operasional Pengolahan Air Limbah (POPAL) Non BNSP",
+      "subtitle": "Sertifikasi Training Certificate",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat Training Certificate",
+      "level": "Profesional",
+      "description": "Program pelatihan Penanggung Jawab Operasional Pengolahan Air Limbah (POPAL) Non BNSP dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Penanggung Jawab Operasional Pengolahan Air Limbah (POPAL) Non BNSP",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi Training Certificate",
+        "Mendapatkan sertifikat Training Certificate"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Penanggung Jawab Operasional Pengolahan Air Limbah (POPAL) Non BNSP",
+        "Biaya uji kompetensi",
+        "Sertifikat Training Certificate (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Penanggung Jawab Operasional Pengolahan Air Limbah (POPAL) Non BNSP.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-penanggung-jawab-pengendalian-pencemaran-air-pppa",
+      "category": "environmental",
+      "categoryLabel": "Lingkungan Hidup",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Penanggung Jawab Pengendalian Pencemaran Air (PPPA)",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Penanggung Jawab Pengendalian Pencemaran Air (PPPA) dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Penanggung Jawab Pengendalian Pencemaran Air (PPPA)",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Penanggung Jawab Pengendalian Pencemaran Air (PPPA)",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Penanggung Jawab Pengendalian Pencemaran Air (PPPA).",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-penanggung-jawab-pengendalian-pencemaran-air-pppa-",
+      "category": "environmental",
+      "categoryLabel": "Lingkungan Hidup",
+      "badge": "Training Certificate",
+      "certifications": [
+        "internal"
+      ],
+      "title": "Penanggung Jawab Pengendalian Pencemaran Air (PPPA) Non BNSP",
+      "subtitle": "Sertifikasi Training Certificate",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat Training Certificate",
+      "level": "Profesional",
+      "description": "Program pelatihan Penanggung Jawab Pengendalian Pencemaran Air (PPPA) Non BNSP dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Penanggung Jawab Pengendalian Pencemaran Air (PPPA) Non BNSP",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi Training Certificate",
+        "Mendapatkan sertifikat Training Certificate"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Penanggung Jawab Pengendalian Pencemaran Air (PPPA) Non BNSP",
+        "Biaya uji kompetensi",
+        "Sertifikat Training Certificate (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Penanggung Jawab Pengendalian Pencemaran Air (PPPA) Non BNSP.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-penanggung-jawab-pengendalian-pencemaran-udara-ppp",
+      "category": "environmental",
+      "categoryLabel": "Lingkungan Hidup",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Penanggung Jawab Pengendalian Pencemaran Udara (PPPU)",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Penanggung Jawab Pengendalian Pencemaran Udara (PPPU) dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Penanggung Jawab Pengendalian Pencemaran Udara (PPPU)",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Penanggung Jawab Pengendalian Pencemaran Udara (PPPU)",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Penanggung Jawab Pengendalian Pencemaran Udara (PPPU).",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-penanggung-jawab-pengendalian-pencemaran-udara-ppp",
+      "category": "environmental",
+      "categoryLabel": "Lingkungan Hidup",
+      "badge": "Training Certificate",
+      "certifications": [
+        "internal"
+      ],
+      "title": "Penanggung Jawab Pengendalian Pencemaran Udara (PPPU) Non BNSP",
+      "subtitle": "Sertifikasi Training Certificate",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat Training Certificate",
+      "level": "Profesional",
+      "description": "Program pelatihan Penanggung Jawab Pengendalian Pencemaran Udara (PPPU) Non BNSP dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Penanggung Jawab Pengendalian Pencemaran Udara (PPPU) Non BNSP",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi Training Certificate",
+        "Mendapatkan sertifikat Training Certificate"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Penanggung Jawab Pengendalian Pencemaran Udara (PPPU) Non BNSP",
+        "Biaya uji kompetensi",
+        "Sertifikat Training Certificate (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Penanggung Jawab Pengendalian Pencemaran Udara (PPPU) Non BNSP.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-teknisi-kalibrasi-suhu",
+      "category": "kalibrasi",
+      "categoryLabel": "Kalibrasi & Metrologi",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Teknisi Kalibrasi Suhu",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Teknisi Kalibrasi Suhu dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Teknisi Kalibrasi Suhu",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Teknisi Kalibrasi Suhu",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Teknisi Kalibrasi Suhu.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-teknisi-kalibrasi-tekanan",
+      "category": "kalibrasi",
+      "categoryLabel": "Kalibrasi & Metrologi",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Teknisi Kalibrasi Tekanan",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Teknisi Kalibrasi Tekanan dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Teknisi Kalibrasi Tekanan",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Teknisi Kalibrasi Tekanan",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Teknisi Kalibrasi Tekanan.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-teknisi-kalibrasi-volume",
+      "category": "kalibrasi",
+      "categoryLabel": "Kalibrasi & Metrologi",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Teknisi Kalibrasi Volume",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Teknisi Kalibrasi Volume dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Teknisi Kalibrasi Volume",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Teknisi Kalibrasi Volume",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Teknisi Kalibrasi Volume.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-teknisi-kalibrasi-densitas",
+      "category": "kalibrasi",
+      "categoryLabel": "Kalibrasi & Metrologi",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Teknisi Kalibrasi Densitas",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Teknisi Kalibrasi Densitas dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Teknisi Kalibrasi Densitas",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Teknisi Kalibrasi Densitas",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Teknisi Kalibrasi Densitas.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-penyelia-halal",
+      "category": "halal",
+      "categoryLabel": "Jaminan Halal",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Penyelia Halal",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Penyelia Halal dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Penyelia Halal",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Penyelia Halal",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Penyelia Halal.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-auditor-halal",
+      "category": "halal",
+      "categoryLabel": "Jaminan Halal",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Auditor Halal",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Auditor Halal dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Auditor Halal",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Auditor Halal",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Auditor Halal.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-juru-sembelih-halal",
+      "category": "halal",
+      "categoryLabel": "Jaminan Halal",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Juru Sembelih Halal",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Juru Sembelih Halal dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Juru Sembelih Halal",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Juru Sembelih Halal",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Juru Sembelih Halal.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-audit-internal-keamanan-pangan",
+      "category": "food",
+      "categoryLabel": "Keamanan Pangan",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Audit Internal Keamanan Pangan",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Audit Internal Keamanan Pangan dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Audit Internal Keamanan Pangan",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Audit Internal Keamanan Pangan",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Audit Internal Keamanan Pangan.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-audit-internal-provisi-keamanan-pangan",
+      "category": "food",
+      "categoryLabel": "Keamanan Pangan",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Audit Internal Provisi Keamanan Pangan",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Audit Internal Provisi Keamanan Pangan dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Audit Internal Provisi Keamanan Pangan",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Audit Internal Provisi Keamanan Pangan",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Audit Internal Provisi Keamanan Pangan.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-penjamah-makanan-food-handler-okupasi-nasional",
+      "category": "food",
+      "categoryLabel": "Keamanan Pangan",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Penjamah Makanan / Food Handler (Okupasi Nasional)",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Penjamah Makanan / Food Handler (Okupasi Nasional) dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Penjamah Makanan / Food Handler (Okupasi Nasional)",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Penjamah Makanan / Food Handler (Okupasi Nasional)",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Penjamah Makanan / Food Handler (Okupasi Nasional).",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-cara-pengolahan-produksi-makanan-yang-baik-cppob",
+      "category": "food",
+      "categoryLabel": "Keamanan Pangan",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Cara Pengolahan Produksi Makanan yang Baik (CPPOB)",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Cara Pengolahan Produksi Makanan yang Baik (CPPOB) dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Cara Pengolahan Produksi Makanan yang Baik (CPPOB)",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Cara Pengolahan Produksi Makanan yang Baik (CPPOB)",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Cara Pengolahan Produksi Makanan yang Baik (CPPOB).",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-penyusunan-dokumen-sistem-haccp",
+      "category": "food",
+      "categoryLabel": "Keamanan Pangan",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Penyusunan Dokumen Sistem HACCP",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Penyusunan Dokumen Sistem HACCP dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Penyusunan Dokumen Sistem HACCP",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Penyusunan Dokumen Sistem HACCP",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Penyusunan Dokumen Sistem HACCP.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-pengelolaan-keamanan-pangan-berbasis-haccp",
+      "category": "food",
+      "categoryLabel": "Keamanan Pangan",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Pengelolaan Keamanan Pangan Berbasis HACCP",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Pengelolaan Keamanan Pangan Berbasis HACCP dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Pengelolaan Keamanan Pangan Berbasis HACCP",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Pengelolaan Keamanan Pangan Berbasis HACCP",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Pengelolaan Keamanan Pangan Berbasis HACCP.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-staf-administrasi-sumber-daya-manusia",
+      "category": "sdm",
+      "categoryLabel": "SDM & Soft Skills",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Staf Administrasi Sumber Daya Manusia",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Staf Administrasi Sumber Daya Manusia dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Staf Administrasi Sumber Daya Manusia",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Staf Administrasi Sumber Daya Manusia",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Staf Administrasi Sumber Daya Manusia.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-supervisor-sumber-daya-manusia",
+      "category": "sdm",
+      "categoryLabel": "SDM & Soft Skills",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Supervisor Sumber Daya Manusia",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Supervisor Sumber Daya Manusia dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Supervisor Sumber Daya Manusia",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Supervisor Sumber Daya Manusia",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Supervisor Sumber Daya Manusia.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-manajer-sumber-daya-manusia",
+      "category": "sdm",
+      "categoryLabel": "SDM & Soft Skills",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Manajer Sumber Daya Manusia",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Manajer Sumber Daya Manusia dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Manajer Sumber Daya Manusia",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Manajer Sumber Daya Manusia",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Manajer Sumber Daya Manusia.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-kepala-bagian-sumber-daya-manusia",
+      "category": "sdm",
+      "categoryLabel": "SDM & Soft Skills",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Kepala Bagian Sumber Daya Manusia",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Kepala Bagian Sumber Daya Manusia dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Kepala Bagian Sumber Daya Manusia",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Kepala Bagian Sumber Daya Manusia",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Kepala Bagian Sumber Daya Manusia.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-supply-chain-management",
+      "category": "sdm",
+      "categoryLabel": "SDM & Soft Skills",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Supply Chain Management",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Supply Chain Management dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Supply Chain Management",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Supply Chain Management",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Supply Chain Management.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
+    {
+      "id": "bnsp-training-of-trainer-tot",
+      "category": "sdm",
+      "categoryLabel": "SDM & Soft Skills",
+      "badge": "BNSP Certified",
+      "certifications": [
+        "bnsp"
+      ],
+      "title": "Training of Trainer (TOT)",
+      "subtitle": "Sertifikasi BNSP Certified",
+      "icon": "verified",
+      "duration": "3-5 Hari",
+      "method": "In-Class / In-House",
+      "certificate": "Sertifikat BNSP Certified",
+      "level": "Profesional",
+      "description": "Program pelatihan Training of Trainer (TOT) dengan standar kompetensi yang diakui. Peserta yang lulus akan mendapatkan sertifikat resmi.",
+      "objectives": [
+        "Memahami kompetensi Training of Trainer (TOT)",
+        "Menguasai implementasi praktis di lapangan",
+        "Lulus uji kompetensi BNSP Certified",
+        "Mendapatkan sertifikat BNSP Certified"
+      ],
+      "syllabus": [
+        {
+          "title": "Pengantar Kompetensi",
+          "topics": [
+            "Standar kompetensi nasional",
+            "Regulasi terkait",
+            "Persyaratan umum"
+          ]
+        },
+        {
+          "title": "Implementasi Praktis",
+          "topics": [
+            "Studi kasus",
+            "Demo lapangan",
+            "Latihan terstruktur"
+          ]
+        },
+        {
+          "title": "Persiapan Uji Kompetensi",
+          "topics": [
+            "Tipe-tipe soal",
+            "Teknik menjawab",
+            "Review materi"
+          ]
+        }
+      ],
+      "includes": [
+        "Modul pelatihan Training of Trainer (TOT)",
+        "Biaya uji kompetensi",
+        "Sertifikat BNSP Certified (jika lulus)",
+        "Konsumsi & akomodasi",
+        "Akses materi digital"
+      ],
+      "targetParticipants": "Profesional, teknisi, dan praktisi yang ingin menguasai kompetensi Training of Trainer (TOT).",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    },
     {
       "id": "bnsp-tot",
       "category": "bnsp",
       "categoryLabel": "Sertifikasi BNSP",
       "badge": "BNSP Certified",
-      "certifications": ["bnsp"],
+      "certifications": [
+        "bnsp"
+      ],
       "title": "Training of Trainer (TOT)",
       "subtitle": "Sertifikasi Kompetensi Fasilitator & Instruktur BNSP",
       "icon": "school",
@@ -27,11 +4102,46 @@
         "Mendapatkan Sertifikat Kompetensi BNSP sebagai Trainer/Instruktur"
       ],
       "syllabus": [
-        { "title": "Prinsip Pembelajaran Orang Dewasa", "topics": ["Teori andragogi", "Gaya belajar peserta", "Dinamika kelompok"] },
-        { "title": "Desain & Pengembangan Pelatihan", "topics": ["Analisis kebutuhan pelatihan (TNA)", "Penyusunan kurikulum & silabus", "Pengembangan modul & bahan ajar"] },
-        { "title": "Teknik Fasilitasi & Presentasi", "topics": ["Public speaking & body language", "Pengelolaan kelas", "Teknik bertanya & diskusi"] },
-        { "title": "Media & Evaluasi Pelatihan", "topics": ["Penggunaan media pembelajaran", "Kirkpatrick evaluation model", "Penyusunan soal & penilaian"] },
-        { "title": "Praktik Mengajar & Uji Kompetensi", "topics": ["Micro teaching", "Asesmen portofolio", "Uji kompetensi BNSP"] }
+        {
+          "title": "Prinsip Pembelajaran Orang Dewasa",
+          "topics": [
+            "Teori andragogi",
+            "Gaya belajar peserta",
+            "Dinamika kelompok"
+          ]
+        },
+        {
+          "title": "Desain & Pengembangan Pelatihan",
+          "topics": [
+            "Analisis kebutuhan pelatihan (TNA)",
+            "Penyusunan kurikulum & silabus",
+            "Pengembangan modul & bahan ajar"
+          ]
+        },
+        {
+          "title": "Teknik Fasilitasi & Presentasi",
+          "topics": [
+            "Public speaking & body language",
+            "Pengelolaan kelas",
+            "Teknik bertanya & diskusi"
+          ]
+        },
+        {
+          "title": "Media & Evaluasi Pelatihan",
+          "topics": [
+            "Penggunaan media pembelajaran",
+            "Kirkpatrick evaluation model",
+            "Penyusunan soal & penilaian"
+          ]
+        },
+        {
+          "title": "Praktik Mengajar & Uji Kompetensi",
+          "topics": [
+            "Micro teaching",
+            "Asesmen portofolio",
+            "Uji kompetensi BNSP"
+          ]
+        }
       ],
       "includes": [
         "Modul TOT lengkap",

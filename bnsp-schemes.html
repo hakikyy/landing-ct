@@ -49,32 +49,6 @@
             display: flex;
         }
 
-        /* Modal */
-        #inquiry-modal {
-            display: none;
-        }
-
-        #inquiry-modal.open {
-            display: flex;
-        }
-
-        /* Modal slide-in */
-        @keyframes slideUp {
-            from {
-                opacity: 0;
-                transform: translateY(24px) scale(0.98);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateY(0) scale(1);
-            }
-        }
-
-        #inquiry-modal.open .modal-box {
-            animation: slideUp 0.25s cubic-bezier(0.22, 1, 0.36, 1) forwards;
-        }
-
         /* Hover arrow indicator on card */
         .scheme-item .arrow-hint {
             opacity: 0;
@@ -91,75 +65,6 @@
 
 <body class="bg-background text-on-background font-body-md overflow-x-hidden">
     <div id="site-header"></div>
-
-    <!-- ── Inquiry Modal ─────────────────────────────────────── -->
-    <div id="inquiry-modal" class="fixed inset-0 z-[100] items-end sm:items-center justify-center p-0 sm:p-4"
-        aria-modal="true" role="dialog">
-        <!-- Backdrop -->
-        <div id="modal-backdrop" class="absolute inset-0 bg-black/60 backdrop-blur-sm"></div>
-
-        <!-- Box -->
-        <div
-            class="modal-box relative z-10 w-full sm:max-w-lg bg-white sm:rounded-2xl rounded-t-2xl shadow-2xl overflow-hidden flex flex-col max-h-[92vh]">
-
-            <!-- Header -->
-            <div class="bg-deep-maroon px-6 py-5 flex items-start justify-between gap-4 flex-shrink-0">
-                <div class="flex-1 min-w-0">
-                    <div id="modal-cert-badge"
-                        class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-label-md mb-3 border">
-                    </div>
-                    <p class="text-white/70 font-label-md text-xs uppercase tracking-widest mb-1" id="modal-category">
-                    </p>
-                    <h3 class="font-headline-md text-white leading-snug" id="modal-title"></h3>
-                </div>
-                <button id="modal-close"
-                    class="flex-shrink-0 w-9 h-9 rounded-lg bg-white/10 hover:bg-white/20 flex items-center justify-center text-white transition-colors"
-                    aria-label="Tutup">
-                    <span class="material-symbols-outlined text-lg">close</span>
-                </button>
-            </div>
-
-            <!-- Body -->
-            <div class="px-6 py-5 overflow-y-auto flex-1 space-y-5">
-
-                <!-- What you get -->
-                <div>
-                    <p class="font-label-md text-label-md text-secondary uppercase tracking-widest mb-3 text-xs">Yang
-                        Kamu Dapatkan</p>
-                    <ul class="space-y-2" id="modal-benefits"></ul>
-                </div>
-
-                <hr class="border-surface-variant" />
-
-                <!-- Info row -->
-                <div class="grid grid-cols-2 gap-3" id="modal-info-grid"></div>
-
-                <hr class="border-surface-variant" />
-
-                <!-- Call to action intro -->
-                <p class="text-secondary font-body-md text-sm">
-                    Hubungi tim kami untuk informasi jadwal, biaya, dan persyaratan pendaftaran. Pesan WhatsApp sudah
-                    otomatis menyertakan nama skema.
-                </p>
-            </div>
-
-            <!-- Footer actions -->
-            <div
-                class="px-6 py-4 border-t border-surface-variant bg-surface-container-low flex-shrink-0 flex flex-col sm:flex-row gap-3">
-                <a id="modal-wa" href="#" target="_blank" rel="noopener"
-                    class="flex-1 flex items-center justify-center gap-2 bg-green-600 text-white px-5 py-3.5 rounded-xl font-label-md text-label-md hover:bg-green-700 transition-all">
-                    <span class="material-symbols-outlined text-lg">chat</span>
-                    Tanya via WhatsApp
-                </a>
-                <a id="modal-contact" href="contact.html"
-                    class="flex-1 flex items-center justify-center gap-2 bg-deep-maroon text-white px-5 py-3.5 rounded-xl font-label-md text-label-md hover:bg-primary transition-all">
-                    <span class="material-symbols-outlined text-lg">support_agent</span>
-                    Hubungi Konsultan
-                </a>
-            </div>
-        </div>
-    </div>
-    <!-- ── /Modal ──────────────────────────────────────────────── -->
 
     <!-- Hero -->
     <section class="relative bg-deep-maroon pt-32 pb-16 lg:pb-20 overflow-hidden">

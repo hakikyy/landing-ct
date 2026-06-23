@@ -1,0 +1,49 @@
+{
+  "_meta": {
+    "category": "Sertifikasi BNSP",
+    "description": "Program pelatihan dengan uji kompetensi dan sertifikat resmi BNSP.",
+    "certifications": ["bnsp"]
+  },
+  "services": [
+    {
+      "id": "bnsp-tot",
+      "category": "bnsp",
+      "categoryLabel": "Sertifikasi BNSP",
+      "badge": "BNSP Certified",
+      "certifications": ["bnsp"],
+      "title": "Training of Trainer (TOT)",
+      "subtitle": "Sertifikasi Kompetensi Fasilitator & Instruktur BNSP",
+      "icon": "school",
+      "duration": "5 Hari",
+      "method": "In-Class",
+      "certificate": "Sertifikat Kompetensi BNSP",
+      "level": "Intermediate",
+      "description": "Program Training of Trainer (TOT) dengan sertifikasi BNSP dirancang untuk membekali calon trainer dan instruktur internal perusahaan dengan metodologi pelatihan yang efektif dan terstandar. Peserta yang lulus uji kompetensi akan mendapatkan sertifikat yang diakui secara nasional dan internasional.",
+      "objectives": [
+        "Menguasai metodologi dan teknik fasilitasi pelatihan dewasa (andragogi)",
+        "Mampu merancang kurikulum dan materi pelatihan yang efektif",
+        "Mampu menggunakan berbagai metode dan media pembelajaran",
+        "Mampu melakukan evaluasi pelatihan secara sistematis",
+        "Mendapatkan Sertifikat Kompetensi BNSP sebagai Trainer/Instruktur"
+      ],
+      "syllabus": [
+        { "title": "Prinsip Pembelajaran Orang Dewasa", "topics": ["Teori andragogi", "Gaya belajar peserta", "Dinamika kelompok"] },
+        { "title": "Desain & Pengembangan Pelatihan", "topics": ["Analisis kebutuhan pelatihan (TNA)", "Penyusunan kurikulum & silabus", "Pengembangan modul & bahan ajar"] },
+        { "title": "Teknik Fasilitasi & Presentasi", "topics": ["Public speaking & body language", "Pengelolaan kelas", "Teknik bertanya & diskusi"] },
+        { "title": "Media & Evaluasi Pelatihan", "topics": ["Penggunaan media pembelajaran", "Kirkpatrick evaluation model", "Penyusunan soal & penilaian"] },
+        { "title": "Praktik Mengajar & Uji Kompetensi", "topics": ["Micro teaching", "Asesmen portofolio", "Uji kompetensi BNSP"] }
+      ],
+      "includes": [
+        "Modul TOT lengkap",
+        "Template desain pelatihan",
+        "Biaya uji kompetensi BNSP",
+        "Sertifikat Kompetensi BNSP (jika lulus)",
+        "Konsumsi & akomodasi selama pelatihan",
+        "Akses komunitas trainer alumni"
+      ],
+      "targetParticipants": "HRD, Trainer Internal, Dosen, Widyaiswara, dan siapapun yang ingin menjadi trainer profesional bersertifikat.",
+      "brochureUrl": "#",
+      "contactUrl": "contact.html"
+    }
+  ]
+}

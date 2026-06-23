@@ -7,6 +7,16 @@
     const totalSchemes = categories.reduce((sum, c) => sum + c.schemes.length, 0);
     document.getElementById('total-count').textContent = totalSchemes;
 
+    // ── Helper function to slugify scheme names ──────────────
+    function slugify(text) {
+        return text
+            .toLowerCase()
+            .replace(/[^\w\s-]/g, '')
+            .replace(/\s+/g, '-')
+            .replace(/-+/g, '-')
+            .substring(0, 50);
+    }
+
     // ── Config maps ──────────────────────────────────────────
     const colorMap = {
         red: { bg: 'bg-red-50', border: 'border-red-200', icon: 'text-red-600' },
@@ -138,74 +148,27 @@
     const modalWA = document.getElementById('modal-wa');
     const modalContact = document.getElementById('modal-contact');
 
-    function openModal(card) {
+    // ── Navigate to detail page instead of opening modal ────────────
+    function goToDetail(card) {
         const name = card.dataset.fullname;
-        const type = card.dataset.type;
-        const catId = card.dataset.cat;
-        const catLabel = card.dataset.catlabel;
-
-        const cert = certConfig[type] || certConfig.internal;
-        const info = catInfo[catId] || { method: 'In-Class / In-House', provider: 'LSP Terkait' };
-        const benefits = certBenefits[type] || certBenefits.internal;
-
-        // Populate
-        modalTitle.textContent = name;
-        modalCat.textContent = catLabel;
-        modalBadge.className = `inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-label-md mb-3 border ${cert.badge}`;
-        modalBadge.textContent = cert.label;
-
-        modalBenefits.innerHTML = benefits.map(b => `
-                <li class="flex items-start gap-2 text-secondary font-body-md text-sm">
-                    <span class="material-symbols-outlined text-emerald-600 text-sm mt-0.5 flex-shrink-0">check_circle</span>
-                    ${b}
-                </li>`).join('');
-
-        modalInfo.innerHTML = `
-                <div class="bg-surface-container-low rounded-xl p-4">
-                    <p class="text-xs text-secondary font-label-md uppercase tracking-widest mb-1">Metode</p>
-                    <p class="font-label-md text-label-md text-text-primary flex items-center gap-1.5">
-                        <span class="material-symbols-outlined text-deep-maroon text-sm">location_on</span>${info.method}
-                    </p>
-                </div>
-                <div class="bg-surface-container-low rounded-xl p-4">
-                    <p class="text-xs text-secondary font-label-md uppercase tracking-widest mb-1">Penerbit</p>
-                    <p class="font-label-md text-label-md text-text-primary flex items-center gap-1.5">
-                        <span class="material-symbols-outlined text-deep-maroon text-sm">workspace_premium</span>${info.provider}
-                    </p>
-                </div>`;
-
-        // WhatsApp link — name baked into message
-        const waMsg = encodeURIComponent(`Halo, saya ingin mendaftar/bertanya tentang sertifikasi:\n\n*${name}*\n\nMohon informasi jadwal dan biayanya. Terima kasih.`);
-        modalWA.href = `https://wa.me/${WA_NUMBER}?text=${waMsg}`;
-        modalContact.href = `contact.html?service=${encodeURIComponent(name)}`;
-
-        // Open
-        modal.classList.add('open');
-        document.body.classList.add('overflow-hidden');
-    }
-
-    function closeModal() {
-        modal.classList.remove('open');
-        document.body.classList.remove('overflow-hidden');
+        const slug = slugify(name);
+        const detailId = `bnsp-${slug}`;
+        window.location.href = `service-detail.html?id=${detailId}`;
     }
 
     // Click on scheme card
     document.getElementById('schemes-container').addEventListener('click', e => {
         const card = e.target.closest('.scheme-item');
-        if (card) openModal(card);
+        if (card) goToDetail(card);
     });
 
     // Keyboard accessibility
     document.getElementById('schemes-container').addEventListener('keydown', e => {
         if (e.key === 'Enter' || e.key === ' ') {
             const card = e.target.closest('.scheme-item');
-            if (card) { e.preventDefault(); openModal(card); }
+            if (card) { e.preventDefault(); goToDetail(card); }
         }
     });
-
-    modalClose.addEventListener('click', closeModal);
-    backdrop.addEventListener('click', closeModal);
-    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
 
     // ── Filter & Search ──────────────────────────────────────
     let activeCat = 'all', activeType = 'all', searchQuery = '';
