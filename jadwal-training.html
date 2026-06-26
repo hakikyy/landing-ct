@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en">
+
+
+
+<head>
+
+    <meta charset="utf-8" />
+
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Jadwal Training | PT Cutting Edge Indonesia</title>
+
+    <script src="src/js/tailwind-config.js"></script>
+
+    <link href="src/style/global.css" rel="stylesheet" />
+
+    <link href="src/style/jadwal-training.css" rel="stylesheet" />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Work+Sans:wght@300;400;500;600&amp;display=swap"
+        rel="stylesheet" />
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+
+</head>
+
+
+
+<body class="bg-surface text-on-surface font-body-md overflow-x-hidden">
+
+    <div id="site-header"></div>
+
+
+
+    <main class="pt-[72px]">
+
+        <section class="site-header">
+
+            <div class="container header-inner">
+
+                <div>
+
+                    <p class="eyebrow">Training Schedule</p>
+
+                    <h1>Jadwal Training</h1>
+
+                    <p class="subtitle">
+
+                        Temukan pelatihan terbaru sesuai kebutuhan organisasi maupun individu.
+
+                    </p>
+
+                </div>
+
+                <div class="header-actions">
+
+                    <a href="#" class="btn btn-secondary">Download Company Profile</a>
+
+                    <a href="#" class="btn btn-primary">Download Jadwal PDF</a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <div class="container">
+
+            <section class="top-actions">
+
+                <a href="#" class="action-card">
+
+                    <span class="action-title">Konsultasi Gratis</span>
+
+                    <span class="action-desc">Diskusikan kebutuhan training perusahaan Anda.</span>
+
+                </a>
+
+                <a href="#" class="action-card">
+
+                    <span class="action-title">In-house Training</span>
+
+                    <span class="action-desc">Jadwalkan pelatihan khusus sesuai kebutuhan tim.</span>
+
+                </a>
+
+                <a href="#" class="action-card">
+
+                    <span class="action-title">Public Training</span>
+
+                    <span class="action-desc">Ikuti jadwal training terbuka yang tersedia.</span>
+
+                </a>
+
+            </section>
+
+
+
+            <section class="filters-section">
+
+                <div class="filters-header">
+
+                    <h2>Filter Jadwal</h2>
+
+                    <button id="resetFilters" class="btn btn-ghost" type="button">Reset Filter</button>
+
+                </div>
+
+
+
+                <div class="filters-grid">
+
+                    <div class="field-group">
+
+                        <label for="searchInput">Cari Training</label>
+
+                        <input type="text" id="searchInput" placeholder="Contoh: ISO 9001" />
+
+                    </div>
+
+
+
+                    <div class="field-group">
+
+                        <label for="filterCategory">Kategori</label>
+
+                        <select id="filterCategory">
+
+                            <option value="">Semua Kategori</option>
+
+                        </select>
+
+                    </div>
+
+
+
+                    <div class="field-group">
+
+                        <label for="filterMode">Mode</label>
+
+                        <select id="filterMode">
+
+                            <option value="">Semua Mode</option>
+
+                        </select>
+
+                    </div>
+
+
+
+                    <div class="field-group">
+
+                        <label for="filterLocation">Lokasi</label>
+
+                        <select id="filterLocation">
+
+                            <option value="">Semua Lokasi</option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <section class="results-bar">
+
+                <p id="resultsCount">Memuat jadwal training...</p>
+
+            </section>
+
+
+
+            <section id="trainingList" class="training-grid"></section>
+
+
+
+            <template id="trainingCardTemplate">
+
+                <article class="training-card">
+
+                    <div class="card-top">
+
+                        <span class="badge category-badge"></span>
+
+                        <span class="badge status-badge"></span>
+
+                    </div>
+
+
+
+                    <h3 class="training-title"></h3>
+
+                    <p class="training-description"></p>
+
+
+
+                    <div class="training-meta">
+
+                        <div class="meta-item">
+
+                            <span class="meta-label">Tanggal</span>
+
+                            <span class="meta-value training-date"></span>
+
+                        </div>
+
+                        <div class="meta-item">
+
+                            <span class="meta-label">Durasi</span>
+
+                            <span class="meta-value training-duration"></span>
+
+                        </div>
+
+                        <div class="meta-item">
+
+                            <span class="meta-label">Lokasi</span>
+
+                            <span class="meta-value training-location"></span>
+
+                        </div>
+
+                        <div class="meta-item">
+
+                            <span class="meta-label">Mode</span>
+
+                            <span class="meta-value training-mode"></span>
+
+                        </div>
+
+                        <div class="meta-item">
+
+                            <span class="meta-label">Harga</span>
+
+                            <span class="meta-value training-price"></span>
+
+                        </div>
+
+                        <div class="meta-item">
+
+                            <span class="meta-label">Kuota</span>
+
+                            <span class="meta-value training-quota"></span>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="card-actions">
+
+                        <a class="btn btn-outline btn-detail" href="#" target="_blank"
+                            rel="noopener noreferrer">Detail</a>
+
+                        <a class="btn btn-primary btn-register" href="#" target="_blank"
+                            rel="noopener noreferrer">Daftar</a>
+
+                        <a class="btn btn-secondary btn-brochure" href="#" target="_blank"
+                            rel="noopener noreferrer">Brosur</a>
+
+                    </div>
+
+                </article>
+
+            </template>
+
+
+
+            <section id="emptyState" class="empty-state hidden">
+
+                <h3>Tidak ada jadwal yang cocok</h3>
+
+                <p>Coba ubah filter atau kata kunci pencarian agar hasil lebih luas.</p>
+
+            </section>
+
+        </div>
+
+    </main>
+
+
+
+    <div id="site-footer"></div>
+
+
+
+    <script src="src/js/index.js" defer></script>
+
+    <script src="src/js/jadwal-training.js" defer></script>
+
+</body>
+
+
+
+</html>

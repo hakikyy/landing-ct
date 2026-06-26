@@ -48,6 +48,7 @@ function setActiveNavLink() {
         'services.html': 'services',
         'about.html': 'about',
         'contact.html': 'contact',
+        'jadwal-training.html': 'jadwal-training',
     };
     const activeNavKey = activeNavKeyByPath[normalizedPath];
     document.querySelectorAll('[data-nav-link]').forEach(link => {
